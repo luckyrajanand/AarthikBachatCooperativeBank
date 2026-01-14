@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</title>
+    <meta name="description" content="A trusted financial partner for over 7 years in Nepal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Savings.css">
+</head>
+
+<body>
+    <!-- Floating animated shapes -->
+    <div class="bg-animation">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <div class="logo-circle">
+                    <img src="Images/Logo.png" alt="Loading-logo">
+                </div>
+            </div>
+            <div class="loader-progress">
+                <div class="progress-bar"></div>
+            </div>
+            <p class="loader-text">AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</p>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-grid">
+                    <div class="top-bar-info">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Sun-Fri 10:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Thulo Pipra,Birgunj-14, Nepal</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="top-bar-actions">
+                        <div class="lang-toggle">
+                            <div class="lang-btn active" data-lang="en">EN</div>
+                            <div class="lang-btn" data-lang="np">ने</div>
+                        </div>
+                        <div class="dark-mode-toggle">
+                            <i class="fas fa-moon"></i>
+                        </div>
+                        <div class="clock">
+                            <span id="updateTime">Today, 3:45 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-container">
+                    <!-- Logo -->
+                    <a href="index.html" class="logo">
+                        <div class="logo-img">
+                            <img src="Images/Logo.png" alt="Logo" width="90px" height="90px">
+                        </div>
+                        <div class="logo-text">
+                            <h1>आर्थिक बचत<br> तथा ऋण सहकारी संस्था लि.</h1>
+                            <p>ठूलो पिपरा, वीरगञ्ज-१४, नेपाल</p>
+                        </div>
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <div class="nav-links" id="navLinks">
+                        <a href="index.html" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-info-circle"></i>
+                                <span>About Us</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="About/Our_History/Our_History.html" class="dropdown-item">
+                                    <i class="fas fa-history"></i>
+                                    <span>Our History</span>
+                                </a>
+                                <a href="About/Mission_Vision/Mission_Vision.html" class="dropdown-item">
+                                    <i class="fas fa-bullseye"></i>
+                                    <span>Mission & Vision</span>
+                                </a>
+                                <a href="About/BOD/BOD.html" class="dropdown-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Board of Directors</span>
+                                </a>
+                                <a href="About/Our_Team/Team.html" class="dropdown-item">
+                                    <i class="fas fa-user-tie"></i>
+                                    <span>Our Team</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-concierge-bell"></i>
+                                <span>Services</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="Services/Savings/Savings.html" class="dropdown-item">
+                                    <i class="fas fa-piggy-bank"></i>
+                                    <span>Accounts</span>
+                                </a>
+                                <a href="Services/Loans&Credit/L&C.html" class="dropdown-item">
+                                    <i class="fas fa-hand-holding-usd"></i>
+                                    <span>Loans & Credit</span>
+                                </a>
+                                <!-- <a href="#investment" class="dropdown-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Investment Plans</span> -->
+                                </a>
+                                <a href="Services/LoanCalculator/LoanCalc.html" class="dropdown-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Loan Calculator</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <a href="/Gallery/gallery.html" class="nav-link">
+                            <i class="fas fa-images"></i>
+                            <span>Gallery</span>
+                        </a> -->
+                        <a href="#reports" class="nav-link">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Reports</span>
+                        </a>
+                        <a href="#notices" class="nav-link">
+                            <i class="fas fa-bullhorn"></i>
+                            <span>Notices</span>
+                        </a>
+                        <a href="FAQ/FAQ.html" class="nav-link">
+                            <i class="fas fa-question-circle"></i>
+                            <span>FAQ</span>
+                        </a>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="nav-breadcrumb">
+        <a href="index.html" class="breadcrumb-link">Home</a>
+        <span class="breadcrumb-separator">/</span>
+        <span> Accounts</span>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="savings-hero">
+        <div class="container">
+            <h2>Secure Your Financial Future</h2>
+            <p>Choose from our range of savings accounts designed to help you save efficiently while earning attractive
+                interest rates. Start building your wealth today.</p>
+        </div>
+    </section>
+
+    <!-- Savings Section -->
+    <section class="container">
+        <div class="savings-section">
+            <h2 class="section-title">Types of Accounts</h2>
+            <p class="savings-intro">
+                We offer various Account options to suit different financial needs. Whether you're saving for
+                short-term goals or long-term security, we have the right account for you.
+            </p>
+
+            <!-- Account Types -->
+            <div class="account-types">
+                <!-- Basic Savings -->
+                <div class="account-card">
+                    <div class="account-header">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                        <h3>Basic Savings Account</h3>
+                        <p>Basic savings with easy access</p>
+                    </div>
+                    <div class="account-body">
+                        <ul class="account-features">
+                            <li><i class="fas fa-check-circle"></i> Minimum Account Opening balance: NPR 100</li>
+                            <li><i class="fas fa-check-circle"></i> One Withdraw Per Annum</li>
+                            <li><i class="fas fa-check-circle"></i> No limit on Deposits</li>
+                            <li><i class="fas fa-check-circle"></i> Semi-Yearly statements</li>
+                            <!-- <li><i class="fas fa-check-circle"></i> Cheque book facility</li> -->
+                        </ul>
+                        <div class="interest-rate">
+                            <div class="rate-number">10%</div>
+                            <div class="rate-label">Withdraw Interest Rate (p.a.)</div>
+                        </div>
+                        <!-- <a href="#open-account" class="account-btn">Open Account</a> -->
+                    </div>
+                </div>
+
+                <!-- Normal Savings -->
+                <div class="account-card">
+                    <div class="account-header">
+                        <i class="fa-solid fa-user"></i>
+                        <h3>Normal Account</h3>
+                        <p>Higher Interest Rate & Unlimited deposits</p>
+                    </div>
+                    <div class="account-body">
+                        <ul class="account-features">
+                            <li><i class="fas fa-check-circle"></i> Minimum Account Opening balance: NPR 100</li>
+                            <li><i class="fas fa-check-circle"></i> One Withdraw Per Annum</li>
+                            <li><i class="fas fa-check-circle"></i> No limit on Deposits</li>
+                            <li><i class="fas fa-check-circle"></i> Semi-Yearly statements</li>
+                            <!-- <li><i class="fas fa-check-circle"></i> Exclusive offers & discounts</li> -->
+                        </ul>
+                        <div class="interest-rate">
+                            <div class="rate-number">10%</div>
+                            <div class="rate-label">Withdraw Interest Rate (p.a.)</div>
+                        </div>
+                        <!-- <a href="#open-account" class="account-btn">Open Account</a> -->
+                    </div>
+                </div>
+
+                <!-- Current Savings -->
+                <div class="account-card">
+                    <div class="account-header">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h3>Current Savings Account</h3>
+                        <p>Special benefits for Normal Account</p>
+                    </div>
+                    <div class="account-body">
+                        <ul class="account-features">
+                            <li><i class="fas fa-check-circle"></i> Minimum Account Opening balance: NPR 100</li>
+                            <li><i class="fas fa-check-circle"></i> Unlimited Withdrawer</li>
+                            <li><i class="fas fa-check-circle"></i> No limit on Deposits</li>
+                            <!-- <li><i class="fas fa-check-circle"></i> Financial literacy workshops</li>
+                            <li><i class="fas fa-check-circle"></i> Special loan schemes</li> -->
+                        </ul>
+                        <div class="interest-rate">
+                            <div class="rate-number">0%</div>
+                            <div class="rate-label">Withdraw Interest Rate (p.a)</div>
+                        </div>
+                        <!-- <a href="#open-account" class="account-btn">Open Account</a> -->
+                    </div>
+                </div>
+
+                <!-- ABBK Account -->
+                <div class="account-card">
+                    <div class="account-header">
+                        <i class="fa-solid fa-landmark"></i>
+                        <h3> Aarth Basik Bachat Khata</h3>
+                        <p>Extra benefits for Aarth Basik Bachat Khata</p>
+                    </div>
+                    <div class="account-body">
+                        <ul class="account-features">
+                            <li><i class="fas fa-check-circle"></i> Disciplined saving account</li>
+                            <li><i class="fas fa-check-circle"></i> Savings-focused account</li>
+                            <!-- <li><i class="fas fa-check-circle"></i> semi-Annual interest</li> -->
+                            <li><i class="fas fa-check-circle"></i> Semi-Annual withdrawal facility</li>
+                            <li><i class="fas fa-check-circle"></i> Secure and reliable </li>
+                        </ul>
+                        <div class="interest-rate">
+                            <div class="rate-number">5%</div>
+                            <div class="rate-label">Withdraw Interest Rate (Semi-Annual)</div>
+                        </div>
+                        <!-- <a href="#open-account" class="account-btn">Open Account</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interest Rates Table -->
+            <div class="rates-section">
+                <h2 class="section-title">Current Interest Rates</h2>
+                <p style="text-align: center; color: #666; margin-bottom: 30px;">
+                    Competitive interest rates effective from Baishakh 2082
+                </p>
+                <table class="rates-table">
+                    <thead>
+                        <tr>
+                            <th>Account Type</th>
+                            <th>Balance Range</th>
+                            <th>Interest Rate (p.a.)</th>
+                            <th>Interest Payment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Savings</td>
+                            <td>NPR 100 - 100,000</td>
+                            <td class="highlight-rate">10%</td>
+                            <td>Annually</td>
+                        </tr>
+                        <tr>
+                            <td>Noraml Savings</td>
+                            <td>NPR 100 - 1,00,000</td>
+                            <td class="highlight-rate">10%</td>
+                            <td>Annually</td>
+                        </tr>
+                        <tr>
+                            <td>Current Account</td>
+                            <td>NPR 100 - 10,00,000</td>
+                            <td class="highlight-rate">0%</td>
+                            <td>---------------</td>
+                        </tr>
+                        <tr>
+                            <td>Artha Barsik Bachat Khata</td>
+                            <td>NPR 100 - 10,00,000</td>
+                            <td class="highlight-rate">5%</td>
+                            <td>Semi-Annual</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="text-align: center; color: #666; margin-top: 20px; font-size: 0.9rem;">
+                    *Interest rates are subject to change as per Nepal Rastra Bank guidelines
+                </p>
+            </div>
+
+            <!-- How to Open Account -->
+            <div class="open-section">
+                <h2 class="section-title">How to Open an Account</h2>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h4>Submit Application</h4>
+                        <p>Fill out the account opening form available at Office or contact from our website.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-icon">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <h4>Provide Documents</h4>
+                        <p>Submit required documents: Citizenship certificate, passport-size photos, and proof of
+                            address.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>Verification</h4>
+                        <p>Our staff will verify your documents and complete KYC (Know Your Customer) process.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <div class="step-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <h4>Account Activation</h4>
+                        <p>Make initial deposit and receive your account number, passbook.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <img src="Images/Logo.png" alt="Aarthik Logo" width="50" height="50">
+                        <div class="footer-logo-text">
+                            <h3>आर्थिक बचत तथा ऋण सहकारी संस्था लि.</h3>
+                            <p>Aarthik Saving & Credit Co-operative Ltd.</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        A trusted financial partner for over 25 years, serving the banking needs
+                        of communities across Nepal with integrity and innovation.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="About/BOD/BOD.html"><i class="fas fa-chevron-right"></i>Our
+                                History</a></li>
+                        <li><a href="Services/Services.html"><i class="fas fa-chevron-right"></i> Services</a>
+                        </li>
+                        <li><a href="Contact/Contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a>
+                        </li>
+                        <li><a href="Reports/Financial_Reports.html"><i class="fas fa-chevron-right"></i>
+                                Financial
+                                Reports</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="Services/Savings/Savings.html"><i class="fas fa-chevron-right"></i> Accounts</a>
+                        </li>
+                        <li><a href="Services/Loans&Credit/L&C.html"><i class="fas fa-chevron-right"></i> Loan
+                                Services</a></li>
+                        <li><a href="Services/LoanCalculator/LoanCalc.html"><i class="fas fa-chevron-right"></i> Loan
+                                Calculator</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Thulo-Pipra, Birgunj-14, Parsa, Nepal</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+977 9845524394</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Sun-Fri: 10:00 AM - 5:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD. All Rights Reserved.</p>
+                    <div class="footer-legal">
+                        <a href="Privacy_policy/Privacy.html">Privacy Policy</a>
+                        <a href="Terms_of_Service/Serviceterms.html">Terms of Service</a>
+                        <a href="#sitemap">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+
+
+    <script src="Savings.js"></script>
+</body>
+
+</html>

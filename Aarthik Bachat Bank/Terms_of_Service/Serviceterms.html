@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</title>
+    <meta name="description" content="A trusted financial partner for over 7 years in Nepal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Serviceterms.css">
+</head>
+
+<body>
+    <!-- Floating animated shapes -->
+    <div class="bg-animation">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <div class="logo-circle">
+                    <img src="Images/Logo.png" alt="Loading-logo">
+                </div>
+            </div>
+            <div class="loader-progress">
+                <div class="progress-bar"></div>
+            </div>
+            <p class="loader-text">AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</p>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-grid">
+                    <div class="top-bar-info">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Sun-Fri 10:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Thulo Pipra,Birgunj-14, Nepal</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="top-bar-actions">
+                        <div class="lang-toggle">
+                            <div class="lang-btn active" data-lang="en">EN</div>
+                            <div class="lang-btn" data-lang="np">ने</div>
+                        </div>
+                        <div class="dark-mode-toggle">
+                            <i class="fas fa-moon"></i>
+                        </div>
+                        <div class="clock">
+                            <span id="updateTime">Today, 3:45 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-container">
+                    <!-- Logo -->
+                    <a href="index.html" class="logo">
+                        <div class="logo-img">
+                            <img src="Images/Logo.png" alt="Logo" width="90px" height="90px">
+                        </div>
+                        <div class="logo-text">
+                            <h1>आर्थिक बचत<br> तथा ऋण सहकारी संस्था लि.</h1>
+                            <p>ठूलो पिपरा, वीरगञ्ज-१४, नेपाल</p>
+                        </div>
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <div class="nav-links" id="navLinks">
+                        <a href="index.html" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-info-circle"></i>
+                                <span>About Us</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="About/Our_History/Our_History.html" class="dropdown-item">
+                                    <i class="fas fa-history"></i>
+                                    <span>Our History</span>
+                                </a>
+                                <a href="About/Mission_Vision/Mission_Vision.html" class="dropdown-item">
+                                    <i class="fas fa-bullseye"></i>
+                                    <span>Mission & Vision</span>
+                                </a>
+                                <a href="About/BOD/BOD.html" class="dropdown-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Board of Directors</span>
+                                </a>
+                                <a href="About/Our_Team/Team.html" class="dropdown-item">
+                                    <i class="fas fa-user-tie"></i>
+                                    <span>Our Team</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-concierge-bell"></i>
+                                <span>Services</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="Services/Savings/Savings.html" class="dropdown-item">
+                                    <i class="fas fa-piggy-bank"></i>
+                                    <span>Accounts</span>
+                                </a>
+                                <a href="Services/Loans&Credit/L&C.html" class="dropdown-item">
+                                    <i class="fas fa-hand-holding-usd"></i>
+                                    <span>Loans & Credit</span>
+                                </a>
+                                <!-- <a href="#investment" class="dropdown-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Investment Plans</span> -->
+                                </a>
+                                <a href="Services/LoanCalculator/LoanCalc.html" class="dropdown-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Loan Calculator</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <a href="/Gallery/gallery.html" class="nav-link">
+                            <i class="fas fa-images"></i>
+                            <span>Gallery</span>
+                        </a> -->
+                        <a href="#reports" class="nav-link">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Reports</span>
+                        </a>
+                        <a href="#notices" class="nav-link">
+                            <i class="fas fa-bullhorn"></i>
+                            <span>Notices</span>
+                        </a>
+                        <a href="FAQ/FAQ.html" class="nav-link">
+                            <i class="fas fa-question-circle"></i>
+                            <span>FAQ</span>
+                        </a>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="nav-breadcrumb">
+        <a href="index.html" class="breadcrumb-link">Home</a>
+        <span class="breadcrumb-separator">/</span>
+        <span> Accounts</span>
+    </div>
+
+    <section class="terms-section">
+        <div class="container">
+            <div class="terms-header">
+                <h1><i class="fas fa-file-contract"></i> Terms of Service</h1>
+                <p class="last-updated">Effective Date: <span id="currentDate">March 15, 2024</span></p>
+            </div>
+
+            <div class="terms-content">
+                <div class="terms-intro">
+                    <h2>Welcome to Aarthik Bachat Cooperative Bank</h2>
+                    <p>These Terms of Service ("Terms") govern your use of our website <a
+                            href="#">https://aarthikbachatbank.com</a> and the information provided herein. By accessing
+                        our website, you agree to these Terms.</p>
+                    <div class="important-note">
+                        <p><i class="fas fa-exclamation-circle"></i> <strong>Important:</strong> These Terms apply only
+                            to our website. Banking services are governed by separate agreements available at our
+                            branch.</p>
+                    </div>
+                </div>
+
+                <div class="terms-section-item">
+                    <div class="section-header">
+                        <div class="section-number">1</div>
+                        <h3>Acceptance of Terms</h3>
+                    </div>
+                    <div class="section-content">
+                        <p>By accessing and using this website, you accept and agree to be bound by these Terms. If you
+                            do not agree to these Terms, please do not use our website.</p>
+                        <p>We reserve the right to update or modify these Terms at any time without prior notice. Your
+                            continued use of the website after any changes constitutes your acceptance of the new Terms.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="terms-section-item">
+                    <div class="section-header">
+                        <div class="section-number">2</div>
+                        <h3>Website Use</h3>
+                    </div>
+                    <div class="section-content">
+                        <p>You agree to use our website only for lawful purposes and in a manner that does not infringe
+                            the rights of, restrict, or inhibit anyone else's use of the website.</p>
+                        <p>Prohibited activities include:</p>
+                        <ul>
+                            <li>Attempting to gain unauthorized access to our website or servers</li>
+                            <li>Using the website to transmit malicious code or viruses</li>
+                            <li>Misrepresenting your identity or affiliation</li>
+                            <li>Collecting information about other users without consent</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="terms-section-item">
+                    <div class="section-header">
+                        <div class="section-number">3</div>
+                        <h3>Intellectual Property</h3>
+                    </div>
+                    <div class="section-content">
+                        <p>All content on this website, including text, graphics, logos, images, and software, is the
+                            property of Aarthik Bachat Cooperative Bank and is protected by copyright and intellectual
+                            property laws.</p>
+                        <p>You may view and download content for personal, non-commercial use only. You may not:</p>
+                        <ul>
+                            <li>Republish material from this website</li>
+                            <li>Sell, rent, or sub-license material from the website</li>
+                            <li>Reproduce, duplicate, or copy material for commercial purposes</li>
+                            <li>Redistribute content without our permission</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="terms-section-item">
+                    <div class="section-header">
+                        <div class="section-number">4</div>
+                        <h3>Website Information</h3>
+                    </div>
+                    <div class="section-content">
+                        <p>The information provided on our website is for general informational purposes only. While we
+                            strive to keep information accurate and up-to-date, we make no representations or warranties
+                            of any kind, express or implied, about the completeness, accuracy, reliability, or
+                            availability of the information.</p>
+
+                        <div class="disclaimer-box">
+                            <h4><i class="fas fa-info-circle"></i> Important Disclaimer</h4>
+                            <p>Website information may not reflect current interest rates, fees, or banking policies.
+                                For accurate and current information about our banking services, please visit our branch
+                                or contact us directly.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="terms-section-item">
+                    <div class="section-header">
+                        <div class="section-number">5</div>
+                        <h3>Links to Other Websites</h3>
+                    </div>
+                    <div class="section-content">
+                        <p>Our website may contain links to third-party websites. These links are provided for your
+                            convenience only. We have no control over the content of these websites and accept no
+                            responsibility for them or for any loss or damage that may arise from your use of them.</p>
+                        <p>Your use of any linked website is at your own risk. We recommend reviewing the terms and
+                            privacy policies of any third-party websites you visit.</p>
+                    </div>
+                </div>
+
+                <div class="terms-section-item">
+                    <div class="section-header">
+                        <div class="section-number">6</div>
+                        <h3>Limitation of Liability</h3>
+                    </div>
+                    <div class="section-content">
+                        <p>To the maximum extent permitted by law, Aarthik Bachat Cooperative Bank shall not be liable
+                            for any direct, indirect, incidental, consequential, or special damages arising out of or in
+                            any way connected with your use of this website.</p>
+                        <p>This includes, but is not limited to:</p>
+                        <ul>
+                            <li>Damages for loss of profits, data, or other intangible losses</li>
+                            <li>Errors or omissions in the content</li>
+                            <li>Unauthorized access to or alteration of your transmissions</li>
+                            <li>Any other matter relating to the website</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="terms-section-item">
+                    <div class="section-header">
+                        <div class="section-number">7</div>
+                        <h3>Governing Law</h3>
+                    </div>
+                    <div class="section-content">
+                        <p>These Terms shall be governed by and construed in accordance with the laws of Nepal, without
+                            regard to its conflict of law provisions.</p>
+                        <p>Any disputes arising under or in connection with these Terms shall be subject to the
+                            exclusive jurisdiction of the courts located in Birgunj, Nepal.</p>
+                    </div>
+                </div>
+
+                <div class="terms-section-item">
+                    <div class="section-header">
+                        <div class="section-number">8</div>
+                        <h3>Contact Information</h3>
+                    </div>
+                    <div class="section-content">
+                        <p>If you have any questions about these Terms, please contact us:</p>
+
+                        <div class="contact-details">
+                            <div class="contact-row">
+                                <i class="fas fa-phone-alt"></i>
+                                <span><a href="tel:+9779845524394">+977 9845524394</a></span>
+                            </div>
+                            <div class="contact-row">
+                                <i class="fas fa-envelope"></i>
+                                <span><a href="mailto:aarthiksaving@gmail.com">aarthiksaving@gmail.com</a></span>
+                            </div>
+                            <div class="contact-row">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Thulo Pipra, Birgunj-14, Parsa, Nepal</span>
+                            </div>
+                            <div class="contact-row">
+                                <i class="fas fa-clock"></i>
+                                <span>Sun-Fri: 10:00 AM - 5:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="terms-acknowledgment">
+                    <div class="acknowledgment-content">
+                        <h4><i class="fas fa-check-circle"></i> Your Agreement</h4>
+                        <p>By using our website, you acknowledge that you have read, understood, and agree to be bound
+                            by these Terms of Service. These Terms constitute the entire agreement between you and
+                            Aarthik Bachat Cooperative Bank regarding your use of our website.</p>
+                        <p>For information about banking services terms and conditions, please visit our branch to
+                            obtain the relevant documentation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <img src="Images/Logo.png" alt="Aarthik Logo" width="50" height="50">
+                        <div class="footer-logo-text">
+                            <h3>आर्थिक बचत तथा ऋण सहकारी संस्था लि.</h3>
+                            <p>Aarthik Saving & Credit Co-operative Ltd.</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        A trusted financial partner for over 25 years, serving the banking needs
+                        of communities across Nepal with integrity and innovation.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="About/BOD/BOD.html"><i class="fas fa-chevron-right"></i>Our
+                                History</a></li>
+                        <li><a href="Services/Services.html"><i class="fas fa-chevron-right"></i> Services</a>
+                        </li>
+                        <li><a href="Contact/Contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a>
+                        </li>
+                        <li><a href="Reports/Financial_Reports.html"><i class="fas fa-chevron-right"></i>
+                                Financial
+                                Reports</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="Services/Savings/Savings.html"><i class="fas fa-chevron-right"></i> Accounts</a>
+                        </li>
+                        <li><a href="Services/Loans&Credit/L&C.html"><i class="fas fa-chevron-right"></i> Loan
+                                Services</a></li>
+                        <li><a href="Services/LoanCalculator/LoanCalc.html"><i class="fas fa-chevron-right"></i> Loan
+                                Calculator</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Thulo-Pipra, Birgunj-14, Parsa, Nepal</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+977 9845524394</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Sun-Fri: 10:00 AM - 5:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD. All Rights Reserved.</p>
+                    <div class="footer-legal">
+                        <a href="Privacy_policy/Privacy.html">Privacy Policy</a>
+                        <a href="Terms_of_Service/Serviceterms.html">Terms of Service</a>
+                        <a href="#sitemap">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+
+
+    <script src="Serviceterms.js"></script>
+</body>
+
+</html>

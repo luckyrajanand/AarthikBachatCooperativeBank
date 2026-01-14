@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</title>
+    <meta name="description" content="A trusted financial partner for over 7 years in Nepal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="FAQ.css">
+</head>
+
+<body>
+    <!-- Floating animated shapes -->
+    <div class="bg-animation">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <div class="logo-circle">
+                    <img src="Images/Logo.png" alt="Loading-logo">
+                </div>
+            </div>
+            <div class="loader-progress">
+                <div class="progress-bar"></div>
+            </div>
+            <p class="loader-text" data-en="AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD."
+                data-np="आर्थिक बचत तथा ऋण सहकारी संस्था लि.">
+                AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.
+            </p>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-grid">
+                    <div class="top-bar-info">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Sun-Fri 10:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-en="Thulo Pipra, Birgunj-14, Nepal" data-np="ठूलो पिपरा, वीरगञ्ज-१४, नेपाल">
+                                Thulo Pipra, Birgunj-14, Nepal
+                            </span>
+
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="top-bar-actions">
+                        <div class="lang-toggle">
+                            <div class="lang-btn active" data-lang="en">EN</div>
+                            <div class="lang-btn" data-lang="np">ने</div>
+                        </div>
+                        <div class="dark-mode-toggle">
+                            <i class="fas fa-moon"></i>
+                        </div>
+                        <div class="clock">
+                            <span id="updateTime">Today, 3:45 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-container">
+                    <!-- Logo -->
+                    <a href="index.html" class="logo">
+                        <div class="logo-img">
+                            <img src="Images/Logo.png" alt="Logo" width="90px" height="90px">
+                        </div>
+                        <div class="logo-text">
+                            <h1>आर्थिक बचत<br> तथा ऋण सहकारी संस्था लि.</h1>
+                            <p>ठूलो पिपरा, वीरगञ्ज-१४, नेपाल</p>
+                        </div>
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <div class="nav-links" id="navLinks">
+                        <a href="index.html" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            <span data-en="Home" data-np="गृहपृष्ठ">Home</span>
+
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-info-circle"></i>
+                                <span data-en="About Us" data-np="हाम्रोबारे">About Us</span>
+
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="About/Our_History/Our_History.html" class="dropdown-item">
+                                    <i class="fas fa-history"></i>
+                                    <span data-en="Our History" data-np="हाम्रो इतिहास">Our History</span>
+
+                                </a>
+                                <a href="About/Mission_Vision/Mission_Vision.html" class="dropdown-item">
+                                    <i class="fas fa-bullseye"></i>
+                                    <span data-en="Mission & Vision" data-np="लक्ष्य र दृष्टिकोण">Mission &
+                                        Vision</span>
+
+                                </a>
+                                <a href="About/BOD/BOD.html" class="dropdown-item">
+                                    <i class="fas fa-users"></i>
+                                    <span data-en="Board of Directors" data-np="निर्देशक मंडल">Board of Directors</span>
+
+                                </a>
+                                <a href="About/Our_Team/Team.html" class="dropdown-item">
+                                    <i class="fas fa-user-tie"></i>
+                                    <span data-en="Our Team" data-np="हाम्रो टोली">Our Team</span>
+
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-concierge-bell"></i>
+                                <span data-en="Services" data-np="सेवाहरू">Services</span>
+
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="Services/Savings/Savings.html" class="dropdown-item">
+                                    <i class="fas fa-piggy-bank"></i>
+                                    <span data-en="Accounts" data-np="खाता">Accounts</span>
+
+                                </a>
+                                <a href="Services/Loans&Credit/L&C.html" class="dropdown-item">
+                                    <i class="fas fa-hand-holding-usd"></i>
+                                    <span data-en="Loans & Credit" data-np="ऋण र क्रेडिट">Loans & Credit</span>
+
+                                </a>
+                                <!-- <a href="#investment" class="dropdown-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Investment Plans</span> -->
+                                </a>
+                                <a href="Services/LoanCalculator/LoanCalc.html" class="dropdown-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span data-en="Loan Calculator" data-np="ऋण गणक">Loan Calculator</span>
+
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <a href="/Gallery/gallery.html" class="nav-link">
+                            <i class="fas fa-images"></i>
+                            <span>Gallery</span>
+                        </a> -->
+                        <a href="Reports/Reports.html" class="nav-link">
+                            <i class="fas fa-file-alt"></i>
+                            <span data-en="Reports" data-np="प्रतिवेदन">Reports</span>
+
+                        </a>
+                        <a href="Notice/Notice.html" class="nav-link">
+                            <i class="fas fa-bullhorn"></i>
+                            <span data-en="Notices" data-np="सूचनाहरू">Notices</span>
+
+                        </a>
+                        <a href="FAQ/FAQ.html" class="nav-link">
+                            <i class="fas fa-question-circle"></i>
+                            <span data-en="FAQ" data-np="बारम्बार सोधिने प्रश्न">FAQ</span>
+
+                        </a>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="nav-breadcrumb">
+        <a href="index.html" class="breadcrumb-link">Home</a>
+        <span class="breadcrumb-separator">/</span>
+        <span data-en="Frequently Asked Questions (FAQ's)" data-np="बारम्बार सोधिने प्रश्न (FAQ)">Frequently Asked
+            Questions (FAQ's)</span>
+
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-en="Frequently Asked Questions" data-np="बारम्बार सोधिने प्रश्न">Frequently
+                    Asked Questions</h1>
+                <p class="hero-subtitle"
+                    data-en="Find quick answers to common questions about our banking services, accounts, loans, and more. Can't find what you're looking for? Contact our support team."
+                    data-np="हाम्रो बैंकिङ सेवाहरू, खाता, ऋण र अन्य विषयहरूमा सामान्य प्रश्नहरूको छिटो उत्तर पाउनुहोस्। तपाईंले खोज्नुभएको कुरा भेट्न सकेन भने हाम्रो सपोर्ट टोलीसँग सम्पर्क गर्नुहोस्।">
+                    Find quick answers to common questions about our banking services, accounts, loans, and more. Can't
+                    find what you're looking for? Contact our support team.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- General Banking FAQ -->
+    <section id="general" class="faq-section">
+        <h2 class="section-title" data-en="General Banking Questions" data-np="सामान्य बैंकिङ प्रश्नहरू">
+            <i class="fas fa-info-circle"></i> General Banking Questions
+        </h2>
+
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq1" class="faq-input">
+            <label for="faq1" class="faq-question"
+                data-en="How do I open an account with AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD. ?"
+                data-np="म आर्थिक बचत तथा ऋण सहकारी संस्था लि. मा खाता कसरी खोल्न सक्छु?">
+                How do I open an account with AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD. ?
+            </label>
+
+            <div class="faq-answer"
+                data-en="You can open an account through this method: Online: Visit our website and contact us online through Whatsapp for account opening. Branch: Visit any of our Office with required documents. Required Documents: Proof of identity: Citizenship Card, and 2 passport-sized photographs. The initial deposit requirement varies by account type."
+                data-np="तपाईं निम्न तरिकाबाट खाता खोल्न सक्नुहुन्छ: अनलाइन: हाम्रो वेबसाइटमा जानुहोस् र खाता खोल्न व्हाट्सएप मार्फत हामीलाई सम्पर्क गर्नुहोस्। शाखा: आवश्यक कागजातहरूसहित हाम्रो कुनै पनि कार्यालयमा जानुहोस्। आवश्यक कागजातहरू: परिचयको प्रमाण: नागरिकता प्रमाणपत्र र २ पासपोर्ट साइज फोटो। प्रारम्भिक जम्मा रकम खाता प्रकार अनुसार फरक पर्न सक्छ।">
+
+                <p data-en="You can open an account through this method:"
+                    data-np="तपाईं निम्न तरिकाबाट खाता खोल्न सक्नुहुन्छ:">
+                    You can open an account through this method:
+                </p>
+
+                <ul>
+                    <li data-en="Online: Visit our website and contact us online through Whatsapp for account opening."
+                        data-np="अनलाइन: हाम्रो वेबसाइटमा जानुहोस् र खाता खोल्न व्हाट्सएप मार्फत हामीलाई सम्पर्क गर्नुहोस्।">
+                        <strong>Online:</strong> Visit our website and contact us online through Whatsapp for account
+                        opening.
+                    </li>
+                    <li data-en="Branch: Visit any of our Office with required documents"
+                        data-np="शाखा: आवश्यक कागजातहरूसहित हाम्रो कुनै पनि कार्यालयमा जानुहोस्।">
+                        <strong>Branch:</strong> Visit any of our Office with required documents
+                    </li>
+                </ul>
+
+                <div class="highlight">
+                    <p data-en="Required Documents: Proof of identity: Citizenship Card, and 2 passport-sized photographs. The initial deposit requirement varies by account type."
+                        data-np="आवश्यक कागजातहरू: परिचयको प्रमाण: नागरिकता प्रमाणपत्र र २ पासपोर्ट साइज फोटो। प्रारम्भिक जम्मा रकम खाता प्रकार अनुसार फरक पर्न सक्छ।">
+                        <strong>Required Documents:</strong> Proof of identity: Citizenship Card, and 2 passport-sized
+                        photographs. The initial deposit requirement varies by account type.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq2" class="faq-input">
+            <label for="faq2" class="faq-question" data-en="What are your banking hours?"
+                data-np="तपाईंको बैंकिङ समय के हो?">
+                What are your banking hours?
+            </label>
+
+            <div class="faq-answer"
+                data-en="Our office banking hours are from Sunday to Friday 10:00 AM to 5:00 PM, Saturday closed. Customer support is available 10/6 at 051-419294 for emergencies."
+                data-np="हाम्रो कार्यालय बैंकिङ समय आइतबारदेखि शुक्रबार १०:०० बजेदेखि ५:०० बजे सम्म छ, शनिवार बन्द। आपतकालीन सेवाको लागि ग्राहक समर्थन १०/६ मा ०५१-४१९२९४ मा उपलब्ध छ।">
+
+                <p data-en="Office Banking Hours:" data-np="कार्यालय बैंकिङ समय:"><strong>Office Banking Hours:</strong>
+                </p>
+
+                <ul>
+                    <li data-en="Sunday to Friday: 10:00 AM to 5:00 PM"
+                        data-np="आइतबारदेखि शुक्रबार: १०:०० बजे - ५:०० बजे">
+                        Sunday to Friday: 10:00 AM to 5:00 PM
+                    </li>
+                    <li data-en="Saturday: Closed" data-np="शनिवार: बन्द">
+                        Saturday: Closed
+                    </li>
+                </ul>
+
+                <div class="highlight">
+                    <p data-en="Customer Support: Available 10/6 at 051-419294 for emergency services."
+                        data-np="ग्राहक समर्थन: आपतकालीन सेवाको लागि १०/६ मा ०५१-४१९२९४ मा उपलब्ध छ।">
+                        <strong>Customer Support:</strong> Available 10/6 at 051-419294 for emergency services.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="faq-item">
+            <input type="checkbox" id="faq3" class="faq-input">
+            <label for="faq3" class="faq-question">How can I update my personal information?</label>
+            <div class="faq-answer">
+                <p>You can update your personal information through multiple channels:</p>
+                <ol>
+                    <li><strong>Online Banking:</strong> Log in to your account and update information in the profile
+                        section</li>
+                    <li><strong>Branch Visit:</strong> Visit your home branch with updated documents</li>
+                    <li><strong>Mobile App:</strong> Use the 'Update Profile' section in our mobile banking app</li>
+                </ol>
+                <p><strong>Note:</strong> For changes in name, address, or contact details, you may need to submit
+                    supporting documents for verification.</p>
+            </div>
+        </div> -->
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq4" class="faq-input">
+            <label for="faq4" class="faq-question" data-en="What documents are needed for KYC verification?"
+                data-np="KYC प्रमाणीकरणको लागि कुन कागजातहरू आवश्यक छन्?">
+                What documents are needed for KYC verification?
+            </label>
+
+            <div class="faq-answer"
+                data-en="KYC (Know Your Customer) verification requires documents for proof of identity and address."
+                data-np="KYC (Know Your Customer) प्रमाणीकरणका लागि परिचय र ठेगानाको प्रमाणका कागजातहरू आवश्यक पर्छन्।">
+
+                <p data-en="KYC (Know Your Customer) verification requires the following documents:"
+                    data-np="KYC (Know Your Customer) प्रमाणीकरणको लागि तलका कागजातहरू आवश्यक छन्:">
+                    KYC (Know Your Customer) verification requires the following documents:
+                </p>
+
+                <p data-en="Proof of Identity (any one):" data-np="पहिचानको प्रमाण (कुनै एक):"><strong>Proof of Identity
+                        (any one):</strong></p>
+                <ul>
+                    <li data-en="NID Card" data-np="राष्ट्रिय परिचय पत्र (NID)">NID Card</li>
+                    <li data-en="Citizenship Card" data-np="नागरिकता प्रमाणपत्र">Citizenship Card</li>
+                    <li data-en="Voter ID Card" data-np="मतदाता परिचयपत्र">Voter ID Card</li>
+                    <li data-en="Driving License" data-np="सवारी चालक अनुमतिपत्र">Driving License</li>
+                </ul>
+
+                <p data-en="Proof of Address (any one):" data-np="ठेगानाको प्रमाण (कुनै एक):"><strong>Proof of Address
+                        (any one):</strong></p>
+                <ul>
+                    <li data-en="Utility Bill (not older than 3 months)"
+                        data-np="युटिलिटी बिल (३ महिनाभन्दा पुरानो नहुनु पर्ने)">Utility Bill (not older than 3 months)
+                    </li>
+                    <li data-en="Property Tax Receipt" data-np="सम्पत्ति कर रसिद">Property Tax Receipt</li>
+                    <li data-en="Rent Agreement with landlord's" data-np="भाडा सम्झौता (भाडादातासँगको)">Rent Agreement
+                        with landlord's</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Savings Accounts FAQ -->
+    <section id="savings" class="faq-section">
+        <h2 class="section-title" data-en="Account Related Questions" data-np="खाता सम्बन्धी प्रश्नहरू">
+            <i class="fas fa-piggy-bank"></i> Account Related Questions
+        </h2>
+
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq5" class="faq-input">
+            <label for="faq5" class="faq-question"
+                data-en="What is the minimum balance requirement for savings accounts?"
+                data-np="बचत खाताहरूको लागि न्यूनतम ब्यालेन्स कति हुनुपर्छ?">
+                What is the minimum balance requirement for savings accounts?
+            </label>
+            <div class="faq-answer" data-en="Minimum balance requirements vary by account type:
+Savings Account: NPR 100/-
+Normal Savings Account: NPR 100/-
+Current Savings Account: NPR 100/-
+Artha Barsik Bachat Khata: NPR 100/-
+Note: Interest is calculated annually and credited once per year." data-np="न्यूनतम ब्यालेन्स आवश्यकताहरू खाता प्रकार अनुसार फरक पर्छ:
+बचत खाता: NPR 100/-
+साधारण बचत खाता: NPR 100/-
+चल्ती खाता: NPR 100/-
+अर्थ वार्षिक बचत खाता: NPR 100/-
+सूचना: ब्याज वार्षिक रूपमा गणना गरिन्छ र एक पटक मात्र जम्मा गरिन्छ।">
+                <p>Minimum balance requirements vary by account type:</p>
+                <ul>
+                    <li><strong>Savings Account:</strong> NPR 100/-</li>
+                    <li><strong>Normal Savings Account:</strong> NPR 100/-</li>
+                    <li><strong>Current Savings Account:</strong> NPR 100/-</li>
+                    <li><strong>Artha Barsik Bachat Khata:</strong> NPR 100/-</li>
+                </ul>
+                <p class="highlight"><strong>Note:</strong> Interest is calculated annually and credited once per year.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq6" class="faq-input">
+            <label for="faq6" class="faq-question" data-en="Who is eligible to open a savings account?"
+                data-np="बचत खाता खोल्न योग्य को हो?">
+                Who is eligible to open a savings account?
+            </label>
+            <div class="faq-answer" data-en="Eligibility requirements vary by account type:
+Savings Account: Any individual with valid ID
+Normal Account: Any individual with valid ID
+Current Account: Any business or individual
+Artha Barsik Bachat Khata: Any individual above 18 years
+Note: Minors may open accounts with a guardian’s consent." data-np="खाता खोल्ने योग्यताका आवश्यकताहरू खाता प्रकार अनुसार फरक पर्छ:
+बचत खाता: कुनै पनि व्यक्ति जससँग मान्य परिचय पत्र छ
+साधारण खाता: कुनै पनि व्यक्ति जससँग मान्य परिचय पत्र छ
+चल्ती खाता: कुनै पनि व्यवसाय वा व्यक्ति
+अर्थ वार्षिक बचत खाता: १८ वर्षभन्दा माथिका व्यक्ति
+सूचना: अल्पवयस्कले अभिभावकको सहमति सहित खाता खोल्न सकिन्छ।">
+                <p>Eligibility requirements vary by account type:</p>
+                <ul>
+                    <li><strong>Savings Account:</strong> Any individual with valid ID</li>
+                    <li><strong>Normal Account:</strong> Any individual with valid ID</li>
+                    <li><strong>Current Account:</strong> Any business or individual</li>
+                    <li><strong>Artha Barsik Bachat Khata:</strong> Any individual above 18 years</li>
+                </ul>
+                <div class="highlight">
+
+                    <div class="faq-item">
+                        <input type="checkbox" id="faq7" class="faq-input">
+                        <label for="faq7" class="faq-question" data-en="Can I close my account anytime?"
+                            data-np="के म आफ्नो खाता कहिले पनि बन्द गर्न सक्छु?">
+                            Can I close my account anytime?
+                        </label>
+                        <div class="faq-answer" data-en="Account closure rules vary by account type:
+Savings Account: Yes, after formalities
+Normal Account: Yes, after formalities
+Current Account: Yes, any time
+Artha Barsik Bachat Khata: Yes, after formalities
+Note: All pending deposits and interest will be settled before closure." data-np="खाता बन्द गर्ने नियम खाता प्रकार अनुसार फरक हुन्छ:
+बचत खाता: हो, औपचारिकतापछि
+साधारण खाता: हो, औपचारिकतापछि
+चल्ती खाता: हो, कुनै पनि समयमा
+अर्थ वार्षिक बचत खाता: हो, औपचारिकतापछि
+सूचना: बन्द गर्नु अघि सबै बाँकी जम्मा र ब्याजको निपटान गरिनेछ।">
+                            <p>Account closure rules vary by account type:</p>
+                            <ul>
+                                <li><strong>Savings Account:</strong> Yes, after formalities</li>
+                                <li><strong>Normal Account:</strong> Yes, after formalities</li>
+                                <li><strong>Current Account:</strong> Yes, Any time</li>
+                                <li><strong>Artha Barsik Bachat Khata:</strong> Yes, after formalities</li>
+                            </ul>
+                            <div class="highlight">
+                                <p><strong>Note:</strong> All pending deposits and interest will be settled before
+                                    closure</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <input type="checkbox" id="faq8" class="faq-input">
+                        <label for="faq8" class="faq-question" data-en="How is interest calculated on savings accounts?"
+                            data-np="बचत खातामा ब्याज कसरी गणना गरिन्छ?">
+                            How is interest calculated on savings accounts?
+                        </label>
+                        <div class="faq-answer" data-en="Interest calculation varies by account type:
+Savings Account: Calculated annually at 10% on closing balance
+Normal Account: Calculated annually at 10% on closing balance
+Current Account: No Interest
+Artha Barsik Bachat Khata: Calculated Semi-Annually at 5% on closing balance
+Note: Interest is credited once per year, and only if the minimum balance is maintained." data-np="ब्याज गणना खाता प्रकार अनुसार फरक हुन्छ:
+बचत खाता: समापन ब्यालेन्समा वार्षिक १०% अनुसार गणना
+साधारण खाता: समापन ब्यालेन्समा वार्षिक १०% अनुसार गणना
+चल्ती खाता: ब्याज लागू हुँदैन
+अर्थ वार्षिक बचत खाता: समापन ब्यालेन्समा अर्धवार्षिक ५% अनुसार गणना
+सूचना: ब्याज वर्षमा एक पटक मात्र जम्मा गरिनेछ, र न्यूनतम ब्यालेन्स कायम भएमा मात्र।">
+                            <p>Interest calculation varies by account type:</p>
+                            <ul>
+                                <li><strong>Savings Account:</strong> Calculated annually at 10% on closing balance</li>
+                                <li><strong>Normal Account:</strong> Calculated annually at 10% on closing balance</li>
+                                <li><strong>Current Account:</strong> No Interest</li>
+                                <li><strong>Artha Barsik Bachat Khata:</strong> Calculated Semi-Annually at 5% on
+                                    closing balance</li>
+                            </ul>
+                            <div class="highlight">
+                                <p><strong>Note:</strong> Interest is credited once per year, and only if the minimum
+                                    balance is maintained</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- <div class="faq-item">
+            <input type="checkbox" id="faq9" class="faq-input">
+            <label for="faq9" class="faq-question">Can I have a joint savings account?</label>
+            <div class="faq-answer">
+                <p>Yes, we offer joint savings accounts with different operating instructions:</p>
+                <ul>
+                   <li><strong>Savings Account:</strong> Calculated annually at 10% on closing balance</li>
+                    <li><strong>Normal Account:</strong> Calculated annually at 10% on closing balance</li>
+                    <li><strong>Current Account:</strong> No Interest</li>
+                    <li><strong>Artha Barsik Bachat Khata:</strong> Calculated Semi-Annually at 5% on closing balance
+                    </li>
+                </ul>
+                <div class="highlight">
+                    <p><strong>Note:</strong> Interest is credited once per year, and only if the minimum balance is
+                        maintained</p>
+                </div>
+            </div>
+        </div> -->
+
+    </section>
+
+    <!-- Loans & Credit FAQ -->
+    <section id="loans" class="faq-section">
+        <h2 class="section-title" data-en="Loans & Credit Questions" data-np="ऋण तथा क्रेडिट सम्बन्धी प्रश्नहरू">
+            <i class="fas fa-hand-holding-usd"></i> Loans & Credit Questions
+        </h2>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq9" class="faq-input">
+            <label for="faq9" class="faq-question" data-en="What documents are required to apply for a loan?"
+                data-np="ऋणको लागि आवेदन गर्दा कुन कागजातहरू आवश्यक पर्छन्?">
+                What documents are required to apply for a loan?
+            </label>
+            <div class="faq-answer" data-en="Required documents vary by loan type:
+Proof of Identity (any one): Citizenship / ID proof, Income proof / Salary slips, Business documents (for business loans), Collateral documents (if required), Voter ID Card, Driving License.
+Note: Additional documents may be requested depending on loan type." data-np="आवश्यक कागजातहरू ऋण प्रकार अनुसार फरक हुन्छन्:
+पहिचान प्रमाण (कुनै एक): नागरिकता / परिचय पत्र, आय प्रमाण / तलब पर्ची, व्यवसाय सम्बन्धी कागजातहरू (व्यवसाय ऋणको लागि), धितो सम्बन्धी कागजात (यदि आवश्यक भएमा), मतदाता परिचय पत्र, चालक अनुमतिपत्र।
+सूचना: ऋणको प्रकार अनुसार थप कागजातहरू मागिन सक्छ।">
+                <p>Required documents vary by loan type:</p>
+                <p><strong>Proof of Identity (any one):</strong></p>
+                <ul>
+                    <li>Citizenship / ID proof</li>
+                    <li>Income proof / Salary slips</li>
+                    <li>Business documents (for business loans)</li>
+                    <li>Collateral documents (if required)</li>
+                    <li>Voter ID Card</li>
+                    <li>Driving License</li>
+                </ul>
+                <div class="highlight">
+                    <p><strong>Note:</strong> Additional documents may be requested depending on loan type.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq10" class="faq-input">
+            <label for="faq10" class="faq-question" data-en="How is loan interest calculated?"
+                data-np="ऋणको ब्याज कसरी गणना गरिन्छ?">
+                How is loan interest calculated?
+            </label>
+            <div class="faq-answer" data-en="Loan interest depends on loan type and tenure:
+Personal Loan: Calculated EMI at 14.55% interest rate
+Business Loan: Calculated EMI at 14.55% interest rate
+Home Loan: Calculated EMI at 14.55% interest rate
+Note: Interest rate is same on every type of Loan." data-np="ऋणको ब्याज ऋण प्रकार र अवधिमा निर्भर गर्दछ:
+व्यक्तिगत ऋण: १४.५५% ब्याजदरमा EMI गणना
+व्यवसाय ऋण: १४.५५% ब्याजदरमा EMI गणना
+गृह ऋण: १४.५५% ब्याजदरमा EMI गणना
+सूचना: प्रत्येक प्रकारको ऋणमा ब्याज दर समान हुन्छ।">
+                <p><strong>Loan interest depends on loan type and tenure:</strong></p>
+                <ul>
+                    <li><strong>Personal Loan:</strong> Calculated EMI at 14.55% interest rate</li>
+                    <li><strong>Business Loan:</strong> Calculated EMI at 14.55% interest rate</li>
+                    <li><strong>Home Loan:</strong> Calculated EMI at 14.55% interest rate</li>
+                </ul>
+                <div class="highlight">
+                    <p><strong>Note:</strong> Interest rate is same on every type of Loan.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq11" class="faq-input">
+            <label for="faq11" class="faq-question" data-en="What is the repayment period for loans?"
+                data-np="ऋण फिर्ती अवधि कति हुन्छ?">
+                What is the repayment period for loans?
+            </label>
+            <div class="faq-answer" data-en="Repayment period depends on loan type:
+Home Loans: 5 years to 25 years
+Personal Loans: 6 months to 5 years
+Business Loans: 1 year to 7 years
+Note: Early repayment may be allowed, subject to terms and conditions." data-np="फिर्ती अवधि ऋण प्रकार अनुसार फरक हुन्छ:
+गृह ऋण: ५ वर्ष देखि २५ वर्ष
+व्यक्तिगत ऋण: ६ महिना देखि ५ वर्ष
+व्यवसाय ऋण: १ वर्ष देखि ७ वर्ष
+सूचना: प्रारम्भिक फिर्ती अनुमति दिइन सक्छ, नियम र शर्त अनुसार।">
+                <p>Yes, you can prepay your loan subject to these conditions:</p>
+                <ul>
+                    <li><strong>Home Loans:</strong> 5 years to 25 years</li>
+                    <li><strong>Personal Loans:</strong> 6 months to 5 years</li>
+                    <li><strong>Business Loans:</strong> 1 year to 7 years</li>
+                </ul>
+                <div class="highlight">
+                    <p><strong>Note:</strong> Early repayment may be allowed, subject to terms and conditions.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Repeat the same structure for faq12, faq13, faq14 -->
+    </section>
+
+
+    <!-- Digital Banking FAQ -->
+    <!-- <section id="digital" class="faq-section">
+        <h2 class="section-title"><i class="fas fa-mobile-alt"></i> Digital Banking Questions</h2>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq12" class="faq-input">
+            <label for="faq12" class="faq-question">How do I register for internet banking?</label>
+            <div class="faq-answer">
+                <p>You can register for internet banking in three simple steps:</p>
+                <ol>
+                    <li>Visit our website and click on 'Register for Internet Banking'</li>
+                    <li>Enter your account number, registered mobile number, and debit card details</li>
+                    <li>Set your login credentials and complete the authentication process</li>
+                </ol>
+                <p><strong>Alternative:</strong> Visit any branch and fill out the internet banking registration form.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq13" class="faq-input">
+            <label for="faq13" class="faq-question">What services are available through mobile banking?</label>
+            <div class="faq-answer">
+                <p>Our mobile banking app offers comprehensive services:</p>
+                <ul>
+                    <li><strong>Account Management:</strong> Check balance, view statements, transfer funds</li>
+                    <li><strong>Bill Payments:</strong> Utilities, credit cards, insurance premiums</li>
+                    <li><strong>Investments:</strong> Fixed deposits, mutual funds, insurance</li>
+                    <li><strong>Loan Services:</strong> Apply for loans, check eligibility, pay EMIs</li>
+                    <li><strong>Card Services:</strong> Block/unblock cards, set limits, view transactions</li>
+                    <li><strong>Support:</strong> Chat with virtual assistant, locate branches</li>
+                </ul>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Quick Questions Section -->
+    <section class="quick-questions">
+        <h2 class="section-title" data-en="Quick Answers to Popular Questions"
+            data-np="लोकप्रिय प्रश्नहरूको छिटो उत्तर">
+            <i class="fas fa-bolt"></i> Quick Answers to Popular Questions
+        </h2>
+
+        <div class="quick-grid">
+            <div class="quick-item">
+                <h4 data-en="What documents are required to open an account?"
+                    data-np="खाता खोल्न कुन कागजातहरू आवश्यक पर्छन्?">
+                    What documents are required to open an account?
+                </h4>
+                <p data-en="Copy of Citizenship Certificate or valid government-issued ID, Recent passport-size photographs, PAN number (if applicable), Nominee details (name and relationship)."
+                    data-np="नागरिकता प्रमाणपत्र वा वैध सरकारी परिचयपत्रको प्रतिलिपि, हालसालैका पासपोर्ट साइज फोटोहरू, PAN नम्बर (यदि लागू हुन्छ), नामिनि विवरण (नाम र सम्बन्ध)।">
+                    Copy of Citizenship Certificate or valid government-issued ID,
+                    Recent passport-size photographs,
+                    PAN number (if applicable),
+                    Nominee details (name and relationship).
+                </p>
+            </div>
+
+            <div class="quick-item">
+                <h4 data-en="How can we apply for Loan?" data-np="ऋणको लागि आवेदन कसरी गर्ने?">
+                    How can we apply for Loan?
+                </h4>
+                <p data-en="Loan approval is subject to eligibility criteria, document verification, and bank policies. For more details, applicants are requested to contact the Office directly."
+                    data-np="ऋण स्वीकृति योग्यताका मापदण्ड, कागजात प्रमाणीकरण र बैंक नीति अनुसार हुन्छ। थप विवरणको लागि, आवेदनकर्ताहरूले कार्यालयसँग सिधै सम्पर्क गर्न अनुरोध गरिन्छ।">
+                    Loan approval is subject to eligibility criteria, document verification, and bank policies. For more
+                    details, applicants are requested to contact the Office directly.
+                </p>
+            </div>
+
+            <div class="quick-item">
+                <h4 data-en="What happens if I miss a loan installment?"
+                    data-np="यदि म ऋण किस्ता छुटाउँछु भने के हुन्छ?">
+                    What happens if I miss a loan installment?
+                </h4>
+                <p data-en="Missing a loan installment may result in late fees and affect your credit history. Please contact the bank for assistance."
+                    data-np="ऋण किस्ता छुटाउँदा ढिला शुल्क लाग्न सक्छ र तपाईंको क्रेडिट इतिहासमा असर पर्न सक्छ। कृपया सहयोगको लागि बैंकमा सम्पर्क गर्नुहोस्।">
+                    Missing a loan installment may result in late fees and affect your credit history. Please contact
+                    the bank for assistance.
+                </p>
+            </div>
+
+            <div class="quick-item">
+                <h4 data-en="How long does loan approval take?" data-np="ऋण स्वीकृति कति समय लाग्छ?">
+                    How long does loan approval take?
+                </h4>
+                <p data-en="Loan approval time depends on loan type, document verification, and eligibility. Typically, it takes 3–7 working days."
+                    data-np="ऋण स्वीकृति समय ऋणको प्रकार, कागजात प्रमाणीकरण, र योग्यतामा निर्भर गर्दछ। सामान्यतया, यसमा ३–७ कार्य दिन लाग्छ।">
+                    Loan approval time depends on loan type, document verification, and eligibility. Typically, it takes
+                    3–7 working days.
+                </p>
+            </div>
+
+            <div class="quick-item">
+                <h4 data-en="How much Interest rate we get in each account?"
+                    data-np="प्रत्येक खातामा कति ब्याजदर पाइन्छ?">
+                    How much Interest rate we get in each account?
+                </h4>
+                <p data-en="Get 10% interest rate per annum." data-np="प्रति वर्ष १०% ब्याजदर प्राप्त गर्नुहोस्।">
+                    Get 10% interest rate per annum.
+                </p>
+            </div>
+
+            <div class="quick-item">
+                <h4 data-en="Is ATM/Debit card available?" data-np="के ATM/Debit कार्ड उपलब्ध छ?">
+                    Is ATM/Debit card available
+                </h4>
+                <p data-en="No! We don't provide any ATM/Debit cards."
+                    data-np="होइन! हामी कुनै ATM/Debit कार्ड प्रदान गर्दैनौं।">
+                    No! We don't provide any ATM/Debit cards.
+                </p>
+            </div>
+
+            <div class="quick-item">
+                <h4 data-en="Can Minor allowed to open account?" data-np="साना (Minor) लाई खाता खोल्न अनुमति छ?">
+                    Can Minor allowed to open account?
+                </h4>
+                <p data-en="Age group between 16 to 18 are allowed but below 16 are not allowed with proper verification."
+                    data-np="१६ देखि १८ वर्ष उमेर समूहलाई अनुमति छ तर १६ वर्षभन्दा कम उमेरमा सही प्रमाणीकरणको साथ अनुमति छैन।">
+                    Age group between 16 to 18 are allowed but below 16 are not allowed with proper verification.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h2 class="contact-title" data-en="Still Have Questions?" data-np="अझै प्रश्नहरू छन्?">
+            Still Have Questions?
+        </h2>
+        <p class="contact-subtitle"
+            data-en="Our customer support team is available 24/7 to help you with any banking queries or concerns you may have."
+            data-np="हाम्रो ग्राहक सहायता टोली २४/७ उपलब्ध छ तपाईंको बैंकिङ प्रश्नहरू वा चिन्ताहरूको लागि।">
+            Our customer support team is available 24/7 to help you with any banking queries or concerns you may have.
+        </p>
+
+        <a href="tel:18001234567" class="btn" data-en="Call Support" data-np="समर्थनका लागि फोन गर्नुहोस्">
+            <i class="fas fa-phone-alt"></i> Call Support
+        </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aarthiksaving@gmail.com&su=Website%20Inquiry&body=Hello,%0A%0AI%20am%20contacting%20you%20regarding%20[your%20reason].%20Please%20let%20me%20know%20more%20details.%0A%0AThank%20you."
+            target="_blank" class="btn btn-outline" data-en="Email Us" data-np="हामीलाई इमेल गर्नुहोस्">
+            <i class="fas fa-envelope icon"></i>Email Us
+        </a>
+
+        <div class="contact-options">
+            <a href="tel:18001234567" class="contact-option">
+                <i class="fas fa-phone-alt"></i>
+                <h4 data-en="Call Us" data-np="हामीलाई फोन गर्नुहोस्">Call Us</h4>
+                <p data-en="051-419294, +977 9845524394, Available 10/6"
+                    data-np="051-419294, +977 9845524394, उपलब्ध १०/६">
+                    051-419294<br>+977 9845524394<br>Available 10/6
+                </p>
+            </a>
+
+            <a href="mailto:support@unitytrustbank.com" class="contact-option">
+                <i class="fas fa-envelope"></i>
+                <h4 data-en="Email Us" data-np="हामीलाई इमेल गर्नुहोस्">Email Us</h4>
+                <p data-en="arthiksaving@gmail.com, Response within 4 hours"
+                    data-np="arthiksaving@gmail.com, ४ घण्टाभित्र प्रतिक्रिया">
+                    arthiksaving@gmail.com<br>Response within 4 hours
+                </p>
+            </a>
+
+            <a href="https://maps.app.goo.gl/2te1NRwLVZnFvDWJ6" class="contact-option">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4 data-en="Visit Branch" data-np="शाखा भ्रमण गर्नुहोस्">Visit Branch</h4>
+                <p data-en="Visit our Office, Book appointment through Whatsapp"
+                    data-np="हाम्रो कार्यालय भ्रमण गर्नुहोस्, Whatsapp मार्फत भेटको समय तोक्नुहोस्">
+                    Visit our Office<br>Book appointment through Whatsapp
+                </p>
+            </a>
+        </div>
+    </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <img src="Images/Logo.png" alt="Aarthik Logo" width="50" height="50">
+                        <div class="footer-logo-text">
+                            <h3 data-en="Aarthik Saving & Credit Co-operative Ltd."
+                                data-np="आर्थिक बचत तथा ऋण सहकारी संस्था लि.">
+                                आर्थिक बचत तथा ऋण सहकारी संस्था लि.
+                            </h3>
+                            <p data-en="Aarthik Saving & Credit Co-operative Ltd."
+                                data-np="आर्थिक बचत तथा ऋण सहकारी संस्था लि.">
+                                Aarthik Saving & Credit Co-operative Ltd.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="footer-description"
+                        data-en="A trusted financial partner for over 25 years, serving the banking needs of communities across Nepal with integrity and innovation."
+                        data-np="२५ वर्ष भन्दा बढी समयदेखि भरपर्दो वित्तीय साझेदार, नेपालभरिका समुदायहरूको बैंकिङ आवश्यकताहरू इमानदारी र नवप्रवर्तनका साथ सेवा गर्दै।">
+                        A trusted financial partner for over 25 years, serving the banking needs of communities across
+                        Nepal with integrity and innovation.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title" data-en="Quick Links" data-np="द्रुत लिंकहरू">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-en="Home" data-np="मुखपृष्ठ"><i class="fas fa-chevron-right"></i>
+                                Home</a></li>
+                        <li><a href="About/Our_Team/Team.html" data-en="Our History" data-np="हाम्रो इतिहास"><i
+                                    class="fas fa-chevron-right"></i>Our History</a></li>
+                        <li><a href="Services/Services.html" data-en="Services" data-np="सेवाहरू"><i
+                                    class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="Contact/Contact.html" data-en="Contact Us" data-np="सम्पर्क गर्नुहोस्"><i
+                                    class="fas fa-chevron-right"></i> Contact Us</a></li>
+                        <li><a href="Reports/Financial_Reports.html" data-en="Financial Reports"
+                                data-np="आर्थिक प्रतिवेदनहरू"><i class="fas fa-chevron-right"></i> Financial Reports</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title" data-en="Our Services" data-np="हाम्रा सेवाहरू">Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="Services/Savings/Savings.html" data-en="Savings Accounts" data-np="बचत खाता"><i
+                                    class="fas fa-chevron-right"></i> Savings Accounts</a></li>
+                        <li><a href="Services/Loans&Credit/L&C.html" data-en="Loan Services" data-np="ऋण सेवा"><i
+                                    class="fas fa-chevron-right"></i> Loan Services</a></li>
+                        <li><a href="Services/LoanCalculator/LoanCalc.html" data-en="Investment Plans" data-np="लगानी योजनाहरू"><i
+                                    class="fas fa-chevron-right"></i>Loan Calculator</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title" data-en="Contact Info" data-np="सम्पर्क जानकारी">Contact Info</h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-en="Thulo-Pipra, Birgunj-14, Parsa, Nepal"
+                                data-np="ठुलो पिपरा, बिर्गंज-१४, पर्सा, नेपाल">Thulo-Pipra, Birgunj-14, Parsa,
+                                Nepal</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span data-en="+977 9845524394" data-np="+९७७ ९८४५५२४३९४">+977 9845524394</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span data-en="aarthiksaving@gmail.com"
+                                data-np="aarthiksaving@gmail.com">aarthiksaving@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span data-en="Sun-Fri: 10:00 AM - 5:00 PM"
+                                data-np="आइतबार-शुक्रबार: बिहान १० बजे - साँझ ५ बजे">Sun-Fri: 10:00 AM - 5:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p data-en="&copy; 2025 AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD. All Rights Reserved."
+                        data-np="© २०२५ आर्थिक बचत तथा ऋण सहकारी संस्था लि। सर्वाधिकार सुरक्षित।">
+                        &copy; 2025 AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD. All Rights Reserved.
+                    </p>
+                    <div class="footer-legal">
+                        <a href="Privacy_policy/Privacy.html" data-en="Privacy Policy" data-np="गोपनीयता नीति">Privacy Policy</a>
+                        <a href="Terms_of_Service/Serviceterms.html" data-en="Terms of Service" data-np="सेवा सर्तहरू">Terms of Service</a>
+                        <a href="#sitemap" data-en="Sitemap" data-np="साइट नक्शा">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+
+
+    <script src="FAQ.js"></script>
+</body>
+
+</html>

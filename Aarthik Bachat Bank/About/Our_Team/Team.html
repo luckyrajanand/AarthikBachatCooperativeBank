@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</title>
+    <meta name="description" content="A trusted financial partner for over 7 years in Nepal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Team.css">
+</head>
+
+<body>
+    <!-- Floating animated shapes -->
+    <div class="bg-animation">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <div class="logo-circle">
+                    <img src="/Images/Logo.png" alt="Loading-logo">
+                </div>
+            </div>
+            <div class="loader-progress">
+                <div class="progress-bar"></div>
+            </div>
+            <p class="loader-text">AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</p>
+        </div>
+    </div>
+
+    <header class="header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-grid">
+
+                    <div class="top-bar-info">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span data-en="Sun-Fri 10:00 AM - 5:00 PM"
+                                data-np="आइतबार–शुक्रबार बिहान १०:०० देखि साँझ ५:०० सम्म">
+                                Sun-Fri 10:00 AM - 5:00 PM
+                            </span>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-en="Thulo Pipra, Birgunj-14, Nepal" data-np="ठूलो पिपरा, वीरगञ्ज–१४, नेपाल">
+                                Thulo Pipra,Birgunj-14, Nepal
+                            </span>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="top-bar-actions">
+                        <div class="lang-toggle">
+                            <div class="lang-btn active" data-lang="en">EN</div>
+                            <div class="lang-btn" data-lang="np">ने</div>
+                        </div>
+
+                        <div class="dark-mode-toggle">
+                            <i class="fas fa-moon"></i>
+                        </div>
+
+                        <div class="clock">
+                            <span id="updateTime" data-en="Today, 3:45 PM" data-np="आज, ३:४५ बजे">
+                                Today, 3:45 PM
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-container">
+
+                    <!-- Logo -->
+                    <a href="index.html" class="logo">
+                        <div class="logo-img">
+                            <img src="Images/Logo.png" alt="Logo" width="90px" height="90px">
+                        </div>
+                        <div class="logo-text">
+                            <h1 data-en="Aarthik Saving & Credit Co-operative Ltd."
+                                data-np="आर्थिक बचत तथा ऋण सहकारी संस्था लि.">
+                                आर्थिक बचत<br> तथा ऋण सहकारी संस्था लि.
+                            </h1>
+                            <p data-en="Thulo Pipra, Birgunj-14, Nepal" data-np="ठूलो पिपरा, वीरगञ्ज–१४, नेपाल">
+                                ठूलो पिपरा, वीरगञ्ज-१४, नेपाल
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <div class="nav-links" id="navLinks">
+
+                        <a href="index.html" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            <span data-en="Home" data-np="गृहपृष्ठ">Home</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-info-circle"></i>
+                                <span data-en="About Us" data-np="हाम्रो बारेमा">About Us</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+
+                            <div class="dropdown-menu">
+                                <a href="About/Our_History/Our_History.html" class="dropdown-item">
+                                    <i class="fas fa-history"></i>
+                                    <span data-en="Our History" data-np="हाम्रो इतिहास">Our History</span>
+                                </a>
+
+                                <a href="About/Mission_Vision/Mission_Vision.html" class="dropdown-item">
+                                    <i class="fas fa-bullseye"></i>
+                                    <span data-en="Mission & Vision" data-np="लक्ष्य तथा दृष्टिकोण">
+                                        Mission & Vision
+                                    </span>
+                                </a>
+
+                                <a href="About/BOD/BOD.html" class="dropdown-item">
+                                    <i class="fas fa-users"></i>
+                                    <span data-en="Board of Directors" data-np="सञ्चालक समिति">
+                                        Board of Directors
+                                    </span>
+                                </a>
+
+                                <a href="About/Our_Team/Team.html" class="dropdown-item">
+                                    <i class="fas fa-user-tie"></i>
+                                    <span data-en="Our Team" data-np="हाम्रो टोली">Our Team</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-concierge-bell"></i>
+                                <span data-en="Services" data-np="सेवाहरू">Services</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+
+                            <div class="dropdown-menu">
+                                <a href="Services/Savings/Savings.html" class="dropdown-item">
+                                    <i class="fas fa-piggy-bank"></i>
+                                    <span data-en="Accounts" data-np="खाता">Accounts</span>
+                                </a>
+
+                                <a href="Services/Loans&Credit/L&C.html" class="dropdown-item">
+                                    <i class="fas fa-hand-holding-usd"></i>
+                                    <span data-en="Loans & Credit" data-np="ऋण तथा कर्जा">
+                                        Loans & Credit
+                                    </span>
+                                </a>
+
+                                <a href="Services/LoanCalculator/LoanCalc.html" class="dropdown-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span data-en="Loan Calculator" data-np="ऋण गणक">
+                                        Loan Calculator
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <a href="#reports" class="nav-link">
+                            <i class="fas fa-file-alt"></i>
+                            <span data-en="Reports" data-np="प्रतिवेदन">Reports</span>
+                        </a>
+
+                        <a href="#notices" class="nav-link">
+                            <i class="fas fa-bullhorn"></i>
+                            <span data-en="Notices" data-np="सूचना">Notices</span>
+                        </a>
+
+                        <a href="FAQ/FAQ.html" class="nav-link">
+                            <i class="fas fa-question-circle"></i>
+                            <span data-en="FAQ" data-np="प्रश्नोत्तर">FAQ</span>
+                        </a>
+
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                    </button>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="nav-breadcrumb">
+        <a href="index.html" class="breadcrumb-link" data-en="Home" data-np="गृहपृष्ठ">Home</a>
+        <span class="breadcrumb-separator">/</span>
+        <span data-en="Our Team" data-np="हाम्रो टोली">Our Team</span>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="team-hero">
+        <div class="container">
+            <h2 data-en="Meet Our Dedicated Team" data-np="हाम्रो समर्पित टोलीसँग परिचित हुनुहोस्">
+                Meet Our Dedicated Team
+            </h2>
+
+            <p data-en="Our team of passionate professionals works tirelessly to provide exceptional financial services and support to our members, helping them achieve their financial goals."
+                data-np="हाम्रो अनुभवी तथा समर्पित टोलीले सदस्यहरूलाई उत्कृष्ट वित्तीय सेवा प्रदान गर्दै उनीहरूको आर्थिक लक्ष्य हासिल गर्न सहयोग गर्दछ।">
+                Our team of passionate professionals works tirelessly to provide exceptional financial services and
+                support to our members, helping them achieve their financial goals.
+            </p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="container">
+        <div class="team-section">
+
+            <h2 class="section-title" data-en="Our Team Members" data-np="हाम्रो टोलीका सदस्यहरू">
+                Our Team Members
+            </h2>
+
+            <p class="team-intro"
+                data-en="At Aarthik Saving & Credit Co-operative, our strength lies in our dedicated team of professionals who bring expertise, commitment, and customer-centric approach to everything we do."
+                data-np="आर्थिक बचत तथा ऋण सहकारी संस्थामा हाम्रो शक्ति हाम्रो अनुभवी, समर्पित तथा सदस्य–केन्द्रित टोलीमा निहित छ।">
+                At Aarthik Saving & Credit Co-operative, our strength lies in our dedicated team of professionals
+                who bring expertise, commitment, and customer-centric approach to everything we do.
+            </p>
+
+            <!-- Department Tabs -->
+            <div class="department-tabs">
+                <button class="tab-btn active" data-department="all" data-en="All Departments" data-np="सबै विभाग">
+                    All Departments
+                </button>
+
+                <button class="tab-btn" data-department="management" data-en="Management" data-np="व्यवस्थापन">
+                    Management
+                </button>
+
+                <button class="tab-btn" data-department="finance" data-en="Finance" data-np="वित्त">
+                    Finance
+                </button>
+
+                <button class="tab-btn" data-department="it" data-en="Web-Dev" data-np="वेब विकास">
+                    Web-Dev
+                </button>
+            </div>
+
+            <!-- Team Grid -->
+            <div class="team-grid">
+
+                <!-- Manager -->
+                <div class="team-member-card" data-department="management">
+                    <div class="member-header">
+                        <div class="member-image"><img src="#" alt="M"></div>
+                        <h4>Mr. Surendra Lamichhane</h4>
+                        <div class="member-role" data-en="Manager" data-np="प्रबन्धक">
+                            Manager
+                        </div>
+                    </div>
+
+                    <div class="member-body">
+                        <p data-en="Leads overall strategy and operations with focus on growth and member satisfaction."
+                            data-np="संस्थाको रणनीति, सञ्चालन तथा सदस्य सन्तुष्टिमा केन्द्रित नेतृत्व प्रदान गर्नुहुन्छ।">
+                            Leads overall strategy and operations with focus on growth and member satisfaction.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Finance Manager -->
+                <div class="team-member-card" data-department="finance">
+                    <div class="member-header">
+                        <div class="member-image"><i class="fas fa-chart-line"></i></div>
+                        <h4>Mr. Ganga Subedi</h4>
+                        <div class="member-role" data-en="Finance Manager" data-np="वित्त प्रबन्धक">
+                            Finance Manager
+                        </div>
+                    </div>
+
+                    <div class="member-body">
+                        <p data-en="Oversees financial planning, budgeting, and financial reporting."
+                            data-np="वित्तीय योजना, बजेट तथा प्रतिवेदनको निगरानी गर्नुहुन्छ।">
+                            Oversees financial planning, budgeting, and financial reporting.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Web Developer -->
+                <div class="team-member-card" data-department="it">
+                    <div class="member-header">
+                        <div class="member-image"><i class="fas fa-laptop-code"></i></div>
+                        <h4>Mr. Lucky Raj Anand</h4>
+                        <div class="member-role" data-en="Website Developer" data-np="वेबसाइट विकासकर्ता">
+                            Website Developer
+                        </div>
+                    </div>
+
+                    <div class="member-body">
+                        <p data-en="Manages technology infrastructure and digital banking solutions."
+                            data-np="प्रविधि संरचना तथा डिजिटल समाधान व्यवस्थापन गर्नुहुन्छ।">
+                            Manages technology infrastructure and digital banking solutions.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Stats Banner -->
+            <div class="stats-banner">
+                <div class="stats-grid">
+
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label" data-en="Team Members" data-np="टोली सदस्य">
+                            Team Members
+                        </div>
+                    </div>
+
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label" data-en="Years Average Experience" data-np="औसत अनुभव (वर्ष)">
+                            Years Average Experience
+                        </div>
+                    </div>
+
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label" data-en="Member Satisfaction" data-np="सदस्य सन्तुष्टि">
+                            Member Satisfaction
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+
+                <!-- About -->
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <img src="Images/Logo.png" alt="Aarthik Logo" width="50" height="50">
+                        <div class="footer-logo-text">
+                            <h3 data-en="Aarthik Saving & Credit Co-operative Ltd."
+                                data-np="आर्थिक बचत तथा ऋण सहकारी संस्था लि.">
+                                आर्थिक बचत तथा ऋण सहकारी संस्था लि.
+                            </h3>
+                            <p>Aarthik Saving & Credit Co-operative Ltd.</p>
+                        </div>
+                    </div>
+
+                    <p class="footer-description"
+                        data-en="A trusted financial partner for over 25 years, serving the banking needs of communities across Nepal with integrity and innovation."
+                        data-np="२५ वर्षभन्दा बढी समयदेखि नेपालभरिका समुदायलाई विश्वासयोग्य वित्तीय सेवा प्रदान गर्दै आएको संस्था।">
+                        A trusted financial partner for over 25 years, serving the banking needs
+                        of communities across Nepal with integrity and innovation.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4 class="footer-title" data-en="Quick Links" data-np="छिटो लिङ्कहरू">
+                        Quick Links
+                    </h4>
+
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i>
+                                <span data-en="Home" data-np="गृहपृष्ठ">Home</span></a></li>
+
+                        <li><a href="About/BOD/BOD.html"><i class="fas fa-chevron-right"></i>
+                                <span data-en="Our History" data-np="हाम्रो इतिहास">Our History</span></a></li>
+
+                        <li><a href="Services/Services.html"><i class="fas fa-chevron-right"></i>
+                                <span data-en="Services" data-np="सेवाहरू">Services</span></a></li>
+
+                     <li><a href="Contact/Contact.html"><i class="fas fa-chevron-right"></i>
+                                <span data-en="Contact Us" data-np="सम्पर्क गर्नुहोस्">Contact Us</span></a></li>
+
+                        <li><a href="Reports/Financial_Reports.html"><i class="fas fa-chevron-right"></i>
+                                <span data-en="Financial Reports" data-np="वित्तीय प्रतिवेदन">Financial
+                                    Reports</span></a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-col">
+                    <h4 class="footer-title" data-en="Our Services" data-np="हाम्रा सेवाहरू">
+                        Our Services
+                    </h4>
+
+                    <ul class="footer-links">
+                        <li><a href="Services/Savings/Savings.html"><i class="fas fa-chevron-right"></i>
+                                <span data-en="Accounts" data-np="खाता">Accounts</span></a></li>
+
+                        <li><a href="Services/Loans&Credit/L&C.html"><i class="fas fa-chevron-right"></i>
+                                <span data-en="Loan Services" data-np="ऋण सेवा">Loan Services</span></a></li>
+
+                        <li><a href="Services/LoanCalculator/LoanCalc.html"><i class="fas fa-chevron-right"></i>
+                                <span data-en="Loan Calculator" data-np="ऋण गणक">Loan Calculator</span></a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-col">
+                    <h4 class="footer-title" data-en="Contact Info" data-np="सम्पर्क जानकारी">
+                        Contact Info
+                    </h4>
+
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-en="Thulo-Pipra, Birgunj-14, Parsa, Nepal"
+                                data-np="ठूलो पिपरा, वीरगञ्ज-१४, पर्सा, नेपाल">
+                                Thulo-Pipra, Birgunj-14, Parsa, Nepal
+                            </span>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+977 9845524394</span>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span data-en="Sun-Fri: 10:00 AM - 5:00 PM"
+                                data-np="आइतबार–शुक्रबार: बिहान १०:०० देखि साँझ ५:००">
+                                Sun-Fri: 10:00 AM - 5:00 PM
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p data-en="© 2025 AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD. All Rights Reserved."
+                        data-np="© २०२५ आर्थिक बचत तथा ऋण सहकारी संस्था लि. सर्वाधिकार सुरक्षित।">
+                        © 2025 AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD. All Rights Reserved.
+                    </p>
+
+                    <div class="footer-legal">
+                        <a href="Privacy_policy/Privacy.html" data-en="Privacy Policy" data-np="गोपनीयता नीति">Privacy
+                            Policy</a>
+
+                        <a href="Terms_of_Service/Serviceterms.html" data-en="Terms of Service"
+                            data-np="सेवाका सर्तहरू">Terms of Service</a>
+
+                        <a href="#sitemap" data-en="Sitemap" data-np="साइटम्याप">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+
+
+    <script src="Team.js"></script>
+</body>
+
+</html>

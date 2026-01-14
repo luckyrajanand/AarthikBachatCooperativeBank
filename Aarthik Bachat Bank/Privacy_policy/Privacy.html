@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</title>
+    <meta name="description" content="A trusted financial partner for over 7 years in Nepal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Privacy.css">
+</head>
+
+<body>
+    <!-- Floating animated shapes -->
+    <div class="bg-animation">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <div class="logo-circle">
+                    <img src="Images/Logo.png" alt="Loading-logo">
+                </div>
+            </div>
+            <div class="loader-progress">
+                <div class="progress-bar"></div>
+            </div>
+            <p class="loader-text">AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</p>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-grid">
+                    <div class="top-bar-info">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Sun-Fri 10:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Thulo Pipra,Birgunj-14, Nepal</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="top-bar-actions">
+                        <div class="lang-toggle">
+                            <div class="lang-btn active" data-lang="en">EN</div>
+                            <div class="lang-btn" data-lang="np">ने</div>
+                        </div>
+                        <div class="dark-mode-toggle">
+                            <i class="fas fa-moon"></i>
+                        </div>
+                        <div class="clock">
+                            <span id="updateTime">Today, 3:45 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-container">
+                    <!-- Logo -->
+                    <a href="index.html" class="logo">
+                        <div class="logo-img">
+                            <img src="Images/Logo.png" alt="Logo" width="90px" height="90px">
+                        </div>
+                        <div class="logo-text">
+                            <h1>आर्थिक बचत<br> तथा ऋण सहकारी संस्था लि.</h1>
+                            <p>ठूलो पिपरा, वीरगञ्ज-१४, नेपाल</p>
+                        </div>
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <div class="nav-links" id="navLinks">
+                        <a href="index.html" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-info-circle"></i>
+                                <span>About Us</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="About/Our_History/Our_History.html" class="dropdown-item">
+                                    <i class="fas fa-history"></i>
+                                    <span>Our History</span>
+                                </a>
+                                <a href="About/Mission_Vision/Mission_Vision.html" class="dropdown-item">
+                                    <i class="fas fa-bullseye"></i>
+                                    <span>Mission & Vision</span>
+                                </a>
+                                <a href="About/BOD/BOD.html" class="dropdown-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Board of Directors</span>
+                                </a>
+                                <a href="About/Our_Team/Team.html" class="dropdown-item">
+                                    <i class="fas fa-user-tie"></i>
+                                    <span>Our Team</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-concierge-bell"></i>
+                                <span>Services</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="Services/Savings/Savings.html" class="dropdown-item">
+                                    <i class="fas fa-piggy-bank"></i>
+                                    <span>Accounts</span>
+                                </a>
+                                <a href="Services/Loans&Credit/L&C.html" class="dropdown-item">
+                                    <i class="fas fa-hand-holding-usd"></i>
+                                    <span>Loans & Credit</span>
+                                </a>
+                                <!-- <a href="#investment" class="dropdown-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Investment Plans</span> -->
+                                </a>
+                                <a href="Services/LoanCalculator/LoanCalc.html" class="dropdown-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Loan Calculator</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <a href="/Gallery/gallery.html" class="nav-link">
+                            <i class="fas fa-images"></i>
+                            <span>Gallery</span>
+                        </a> -->
+                        <a href="Reports/Reports.html" class="nav-link">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Reports</span>
+                        </a>
+                        <a href="Notice/Notice.html" class="nav-link">
+                            <i class="fas fa-bullhorn"></i>
+                            <span>Notices</span>
+                        </a>
+                        <a href="FAQ/FAQ.html" class="nav-link">
+                            <i class="fas fa-question-circle"></i>
+                            <span>FAQ</span>
+                        </a>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="privacy-policy-section">
+  <div class="container">
+
+    <div class="privacy-header">
+      <h1
+        data-en="Privacy Policy"
+        data-np="गोपनीयता नीति">
+        <i class="fas fa-shield-alt"></i>
+        Privacy Policy
+      </h1>
+
+      <p class="last-updated"
+         data-en="Last Updated:"
+         data-np="अन्तिम अपडेट:">
+        Last Updated:
+        <span id="currentDate"
+              data-en="2082 Magh-1"
+              data-np="२०८२ माघ १">
+          2082 Magh-1
+        </span>
+      </p>
+    </div>
+
+    <div class="privacy-content">
+
+      <div class="policy-intro">
+        <h2
+          data-en="Privacy Policy of Aarthik Bachat Cooperative Bank"
+          data-np="आर्थिक बचत सहकारी बैंकको गोपनीयता नीति">
+          Privacy Policy of Aarthik Bachat Cooperative Bank
+        </h2>
+
+        <p
+          data-en="Aarthik Bachat Cooperative Bank operates the website https://aarthikbachat.com which provides information about our banking services."
+          data-np="आर्थिक बचत सहकारी बैंकले https://aarthikbachat.com वेबसाइट सञ्चालन गर्दछ जसले हाम्रो बैंकिङ सेवासम्बन्धी जानकारी प्रदान गर्दछ।">
+          Aarthik Bachat Cooperative Bank operates the website
+          <a href="#">https://aarthikbachat.com</a>
+          which provides information about our banking services.
+        </p>
+      </div>
+
+      <!-- Information We Collect -->
+      <div class="policy-section">
+        <div class="section-header">
+          <div class="section-icon"><i class="fas fa-info-circle"></i></div>
+          <h3
+            data-en="Information We Collect"
+            data-np="हामीले संकलन गर्ने जानकारी">
+            Information We Collect
+          </h3>
+        </div>
+
+        <div class="section-content">
+          <p
+            data-en="Like most website operators, Aarthik Bachat Cooperative Bank collects non-personally-identifying information such as:"
+            data-np="अन्य धेरै वेबसाइटहरू जस्तै, आर्थिक बचत सहकारी बैंकले निम्न गैर-व्यक्तिगत जानकारी संकलन गर्दछ:">
+            Like most website operators, Aarthik Bachat Cooperative Bank collects
+            non-personally-identifying information of the sort that web browsers and servers typically make available, such as:
+          </p>
+
+          <ul>
+            <li data-en="Browser type and version" data-np="ब्राउजरको प्रकार र संस्करण">Browser type and version</li>
+            <li data-en="Language preference" data-np="भाषा प्राथमिकता">Language preference</li>
+            <li data-en="Referring website" data-np="सन्दर्भ वेबसाइट">Referring website</li>
+            <li data-en="Date and time of each visitor request" data-np="प्रत्येक आगन्तुकको अनुरोध मिति र समय">Date and time of each visitor request</li>
+          </ul>
+
+          <p
+            data-en="Our purpose in collecting this information is to better understand how visitors use our website."
+            data-np="यी जानकारी संकलन गर्नुको उद्देश्य आगन्तुकहरूले हाम्रो वेबसाइट कसरी प्रयोग गर्छन् भन्ने बुझ्नु हो।">
+            Our purpose in collecting non-personally identifying information is to better understand how
+            visitors use our website.
+          </p>
+
+          <div class="highlight-box">
+            <p
+              data-en="Note: We may also collect IP addresses but do not use them to identify individuals."
+              data-np="नोट: हामी IP ठेगाना पनि संकलन गर्न सक्छौं तर व्यक्तिको पहिचान गर्न प्रयोग गर्दैनौं।">
+              <strong>Note:</strong>
+              We also collect potentially personally-identifying information like Internet Protocol (IP) addresses.
+              We do not use such information to identify individual visitors.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cookies -->
+      <div class="policy-section">
+        <div class="section-header">
+          <div class="section-icon"><i class="fas fa-cookie-bite"></i></div>
+          <h3 data-en="Cookies" data-np="कुकीहरू">Cookies</h3>
+        </div>
+
+        <div class="section-content">
+          <p
+            data-en="Cookies are small data files used to identify users anonymously."
+            data-np="कुकीहरू साना डाटा फाइलहरू हुन् जुन प्रयोगकर्तालाई अज्ञात रूपमा चिन्ने काम गर्छन्।">
+            Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers.
+          </p>
+
+          <ul>
+            <li data-en="Remember user preferences" data-np="प्रयोगकर्ता प्राथमिकता सम्झन">Remember user preferences</li>
+            <li data-en="Improve website performance" data-np="वेबसाइट कार्यक्षमता सुधार">Improve website performance</li>
+            <li data-en="Understand user behavior" data-np="प्रयोगकर्ता व्यवहार बुझ्न">Understand user behavior</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="policy-section">
+        <div class="section-header">
+          <div class="section-icon"><i class="fas fa-envelope"></i></div>
+          <h3 data-en="Contact Us" data-np="सम्पर्क गर्नुहोस्">Contact Us</h3>
+        </div>
+
+        <div class="section-content">
+          <p
+            data-en="If you have any questions about our privacy policy, please contact us."
+            data-np="यदि तपाईंसँग गोपनीयता नीतिसम्बन्धी कुनै प्रश्न छन् भने कृपया हामीलाई सम्पर्क गर्नुहोस्।">
+            If you have any questions or suggestions about our Privacy Policy, please do not hesitate to contact us.
+          </p>
+
+          <p data-en="Address: Birgunj-14, Parsa, Nepal"
+             data-np="ठेगाना: वीरगञ्ज-१४, पर्सा, नेपाल">
+            Thulo Pipra, Birgunj-14, Parsa, Nepal
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <img src="Images/Logo.png" alt="Aarthik Logo" width="50" height="50">
+                        <div class="footer-logo-text">
+                            <h3>आर्थिक बचत तथा ऋण सहकारी संस्था लि.</h3>
+                            <p>Aarthik Saving & Credit Co-operative Ltd.</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        A trusted financial partner for over 25 years, serving the banking needs
+                        of communities across Nepal with integrity and innovation.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="About/BOD/BOD.html"><i class="fas fa-chevron-right"></i>Our
+                                History</a></li>
+                        <li><a href="Services/Services.html"><i class="fas fa-chevron-right"></i> Services</a>
+                        </li>
+                        <li><a href="Contact/Contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a>
+                        </li>
+                        <li><a href="Reports/Financial_Reports.html"><i class="fas fa-chevron-right"></i>
+                                Financial
+                                Reports</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="Services/Savings/Savings.html"><i class="fas fa-chevron-right"></i> Accounts</a>
+                        </li>
+                        <li><a href="Services/Loans&Credit/L&C.html"><i class="fas fa-chevron-right"></i> Loan
+                                Services</a></li>
+                        <li><a href="Services/LoanCalculator/LoanCalc.html"><i class="fas fa-chevron-right"></i> Loan
+                                Calculator</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Thulo-Pipra, Birgunj-14, Parsa, Nepal</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+977 9845524394</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Sun-Fri: 10:00 AM - 5:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD. All Rights Reserved.</p>
+                    <div class="footer-legal">
+                        <a href="Privacy_policy/Privacy.html">Privacy Policy</a>
+                        <a href="Terms_of_Service/Serviceterms.html">Terms of Service</a>
+                        <a href="#sitemap">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="Privacy.js"></script>
+</body>
+
+</html>

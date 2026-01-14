@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</title>
+    <meta name="description" content="A trusted financial partner for over 7 years in Nepal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="L&C.css">
+</head>
+
+<body>
+    <!-- Floating animated shapes -->
+    <div class="bg-animation">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <div class="logo-circle">
+                    <img src="Images/Logo.png" alt="Loading-logo">
+                </div>
+            </div>
+            <div class="loader-progress">
+                <div class="progress-bar"></div>
+            </div>
+            <p class="loader-text">AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</p>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-grid">
+                    <div class="top-bar-info">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Sun-Fri 10:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Thulo Pipra,Birgunj-14, Nepal</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="top-bar-actions">
+                        <div class="lang-toggle">
+                            <div class="lang-btn active" data-lang="en">EN</div>
+                            <div class="lang-btn" data-lang="np">ने</div>
+                        </div>
+                        <div class="dark-mode-toggle">
+                            <i class="fas fa-moon"></i>
+                        </div>
+                        <div class="clock">
+                            <span id="updateTime">Today, 3:45 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-container">
+                    <!-- Logo -->
+                    <a href="index.html" class="logo">
+                        <div class="logo-img">
+                            <img src="Images/Logo.png" alt="Logo" width="90px" height="90px">
+                        </div>
+                        <div class="logo-text">
+                            <h1>आर्थिक बचत<br> तथा ऋण सहकारी संस्था लि.</h1>
+                            <p>ठूलो पिपरा, वीरगञ्ज-१४, नेपाल</p>
+                        </div>
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <div class="nav-links" id="navLinks">
+                        <a href="index.html" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-info-circle"></i>
+                                <span>About Us</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="About/Our_History/Our_History.html" class="dropdown-item">
+                                    <i class="fas fa-history"></i>
+                                    <span>Our History</span>
+                                </a>
+                                <a href="About/Mission_Vision/Mission_Vision.html" class="dropdown-item">
+                                    <i class="fas fa-bullseye"></i>
+                                    <span>Mission & Vision</span>
+                                </a>
+                                <a href="About/BOD/BOD.html" class="dropdown-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Board of Directors</span>
+                                </a>
+                                <a href="About/Our_Team/Team.html" class="dropdown-item">
+                                    <i class="fas fa-user-tie"></i>
+                                    <span>Our Team</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-concierge-bell"></i>
+                                <span>Services</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="Services/Savings/Savings.html" class="dropdown-item">
+                                    <i class="fas fa-piggy-bank"></i>
+                                    <span>Accounts</span>
+                                </a>
+                                <a href="Services/Loans&Credit/L&C.html" class="dropdown-item">
+                                    <i class="fas fa-hand-holding-usd"></i>
+                                    <span>Loans & Credit</span>
+                                </a>
+                                <!-- <a href="#investment" class="dropdown-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Investment Plans</span> -->
+                                </a>
+                                <a href="Services/LoanCalculator/LoanCalc.html" class="dropdown-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Loan Calculator</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <a href="/Gallery/gallery.html" class="nav-link">
+                            <i class="fas fa-images"></i>
+                            <span>Gallery</span>
+                        </a> -->
+                        <a href="#reports" class="nav-link">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Reports</span>
+                        </a>
+                        <a href="#notices" class="nav-link">
+                            <i class="fas fa-bullhorn"></i>
+                            <span>Notices</span>
+                        </a>
+                        <a href="FAQ/FAQ.html" class="nav-link">
+                            <i class="fas fa-question-circle"></i>
+                            <span>FAQ</span>
+                        </a>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="nav-breadcrumb">
+        <a href="index.html" class="breadcrumb-link">Home</a>
+        <span class="breadcrumb-separator">/</span>
+        <span>Loans & Credit</span>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Loans & Credit Solutions</h1>
+                <p class="hero-subtitle">Flexible borrowing options with competitive rates to help you finance your
+                    dreams. From buying a home to consolidating debt, we have the right loan product for your needs.</p>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-value">14.55%</div>
+                        <div class="stat-label">Home, Personal, Business Starting Rate</div>
+                    </div>
+                    <!-- <div class="stat-item">
+                        <div class="stat-value">14.55%</div>
+                        <div class="stat-label">Personal Loan Starting Rate</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">14.55%</div>
+                        <div class="stat-label">Business Loan Starting Rate</div>
+                    </div> -->
+                    <div class="stat-item">
+                        <div class="stat-value">24 Hrs</div>
+                        <div class="stat-label">Quick Approval</div>
+                    </div>
+                    <!-- <div class="stat-item">
+                        <div class="stat-value">NPR 1L</div>
+                        <div class="stat-label">Max Personal Loan</div>
+                    </div> -->
+                    <div class="stat-item">
+                        <div class="stat-value">0%</div>
+                        <div class="stat-label">Processing Fee*</div>
+                    </div>
+                </div>
+
+                <a href="#loan-products" class="btn">View Loan Products</a>
+                <a href="#contact" class="btn btn-outline">Contact us</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- Loan Products Section -->
+        <section id="loan-products" class="loan-products">
+            <h2 class="section-title center-title">Our Loan Products</h2>
+            <p
+                style="text-align: center; color: #666; margin-bottom: 3rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+                Choose from a variety of loan options tailored to meet your specific financial needs. Competitive rates,
+                flexible terms, and quick approvals.
+            </p>
+
+            <div class="products-grid">
+                <!-- Home Loan -->
+                <div class="product-card">
+                    <div class="product-header">
+                        <div class="product-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>Home Loan</h3>
+                        <p>Buy your dream home</p>
+                    </div>
+                    <div class="product-body">
+                        <ul class="product-features">
+                            <!-- <li><i class="fas fa-check-circle"></i> Up to 90% of property value</li> -->
+                            <li><i class="fas fa-check-circle"></i> Tenure up to 30 years</li>
+                            <li><i class="fas fa-check-circle"></i> Balance transfer facility</li>
+                            <li><i class="fas fa-check-circle"></i> Minimal documentation</li>
+
+                            <li><i class="fas fa-check-circle"></i> Insurance options</li>
+                        </ul>
+
+                        <div class="product-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Interest Rate</span>
+                                <span class="detail-value interest-rate">14.50% - 14.55% p.a.</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Processing Fee</span>
+                                <span class="detail-value">0% of loan amount</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Loan Amount</span>
+                                <span class="detail-value">Up to NPR 10 Lakhs</span>
+                            </div>
+                        </div>
+
+                        <div class="product-actions">
+                            <!-- <a href="#" class="product-btn">Apply Now</a> -->
+                            <a href="#" class="product-btn secondary">Know More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Personal Loan -->
+                <div class="product-card">
+                    <div class="product-header">
+                        <div class="product-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3>Personal Loan</h3>
+                        <p>For all your personal needs</p>
+                    </div>
+                    <div class="product-body">
+                        <ul class="product-features">
+                            <li><i class="fas fa-check-circle"></i> No collateral required</li>
+                            <li><i class="fas fa-check-circle"></i> Quick disbursal</li>
+                            <li><i class="fas fa-check-circle"></i> Flexible repayment</li>
+                            <li><i class="fas fa-check-circle"></i> Minimal documentation</li>
+                            <!-- <li><i class="fas fa-check-circle"></i> Online approval</li> -->
+                        </ul>
+
+                        <div class="product-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Interest Rate</span>
+                                <span class="detail-value interest-rate">14.50% - 14.55% p.a.</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Processing Fee</span>
+                                <span class="detail-value">0% of loan amount</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Loan Amount</span>
+                                <span class="detail-value">Up to NPR 1 Lakh</span>
+                            </div>
+                        </div>
+
+                        <div class="product-actions">
+                            <!-- <a href="#" class="product-btn">Apply Now</a> -->
+                            <a href="#" class="product-btn secondary">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Row of Loan Products -->
+            <div class="products-grid">
+                <!-- Business Loan -->
+                <div class="product-card">
+                    <div class="product-header">
+                        <div class="product-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Business Loan</h3>
+                        <p>Grow your business</p>
+                    </div>
+                    <div class="product-body">
+                        <ul class="product-features">
+                            <li><i class="fas fa-check-circle"></i> Working capital</li>
+                            <li><i class="fas fa-check-circle"></i> Machinery purchase</li>
+                            <li><i class="fas fa-check-circle"></i> Business expansion</li>
+                            <li><i class="fas fa-check-circle"></i> Flexible repayment</li>
+                            <li><i class="fas fa-check-circle"></i> Quick disbursal</li>
+                        </ul>
+
+                        <div class="product-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Interest Rate</span>
+                                <span class="detail-value interest-rate">14.50% - 14.55% p.a.</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Processing Fee</span>
+                                <span class="detail-value">0% of loan amount</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Loan Amount</span>
+                                <span class="detail-value">Up to NPR 5 lakh</span>
+                            </div>
+                        </div>
+
+                        <div class="product-actions">
+                            <!-- <a href="#" class="product-btn">Apply Now</a> -->
+                            <a href="#" class="product-btn secondary">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <img src=Images/Logo.png" alt="Aarthik Logo" width="50" height="50">
+                        <div class="footer-logo-text">
+                            <h3>आर्थिक बचत तथा ऋण सहकारी संस्था लि.</h3>
+                            <p>Aarthik Saving & Credit Co-operative Ltd.</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        A trusted financial partner for over 25 years, serving the banking needs
+                        of communities across Nepal with integrity and innovation.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="About/BOD/BOD.html"><i class="fas fa-chevron-right"></i>Our
+                                History</a></li>
+                        <li><a href="Services/Services.html"><i class="fas fa-chevron-right"></i> Services</a>
+                        </li>
+                        <li><a href="Contact/Contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a>
+                        </li>
+                        <li><a href="Reports/Financial_Reports.html"><i class="fas fa-chevron-right"></i>
+                                Financial
+                                Reports</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="Services/Savings/Savings.html"><i class="fas fa-chevron-right"></i> Accounts</a>
+                        </li>
+                        <li><a href="Services/Loans&Credit/L&C.html"><i class="fas fa-chevron-right"></i> Loan
+                                Services</a></li>
+                        <li><a href="Services/LoanCalculator/LoanCalc.html"><i class="fas fa-chevron-right"></i> Loan
+                                Calculator</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Thulo-Pipra, Birgunj-14, Parsa, Nepal</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+977 9845524394</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Sun-Fri: 10:00 AM - 5:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD. All Rights Reserved.</p>
+                    <div class="footer-legal">
+                        <a href="Privacy_policy/Privacy.html">Privacy Policy</a>
+                        <a href="Terms_of_Service/Serviceterms.html">Terms of Service</a>
+                        <a href="#sitemap">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+
+
+    <script src="L&C.js"></script>
+</body>
+
+</html>

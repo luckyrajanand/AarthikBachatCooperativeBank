@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</title>
+    <meta name="description" content="A trusted financial partner for over 7 years in Nepal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Notice.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <div class="logo-circle">
+                    <img src="Images/Logo.png" alt="Loading-logo">
+                </div>
+            </div>
+            <div class="loader-progress">
+                <div class="progress-bar"></div>
+            </div>
+            <p class="loader-text">AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</p>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-grid">
+                    <div class="top-bar-info">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Sun-Fri 10:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Thulo Pipra,Birgunj-14, Nepal</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="top-bar-actions">
+                        <button id="languageToggle" class="lang-btn" aria-label="Toggle language">
+                            <i class="fas fa-language"></i>
+                            <span class="lang-text">नेपाली</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-container">
+                    <!-- Logo -->
+                    <a href="index.html" class="logo">
+                        <div class="logo-img">
+                            <img src="Images/Logo.png" alt="Logo" width="100px" height="100px">
+                        </div>
+                        <div class="logo-text">
+                            <h1>आर्थिक बचत तथा ऋण सहकारी संस्था लि.</h1>
+                            <p>ठूलो पिपरा, वीरगञ्ज, नेपाल</p>
+                        </div>
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <div class="nav-links" id="navLinks">
+                        <a href="index.html" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-info-circle"></i>
+                                <span>About Us</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="About/Our_History/Our_History.html" class="dropdown-item">
+                                    <i class="fas fa-history"></i>
+                                    <span>Our History</span>
+                                </a>
+                                <a href="About/Mission_Vision/Mission_Vision.html" class="dropdown-item">
+                                    <i class="fas fa-bullseye"></i>
+                                    <span>Mission & Vision</span>
+                                </a>
+                                <a href="About/BOD/BOD.html" class="dropdown-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Board of Directors</span>
+                                </a>
+                                <a href="About/Our_Team/Team.html" class="dropdown-item">
+                                    <i class="fas fa-user-tie"></i>
+                                    <span>Our Team</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-concierge-bell"></i>
+                                <span>Services</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="Services/Savings/Savings.html" class="dropdown-item">
+                                    <i class="fas fa-piggy-bank"></i>
+                                    <span>Savings Accounts</span>
+                                </a>
+                                <a href="Services/Loans&Credit/L&C.html" class="dropdown-item">
+                                    <i class="fas fa-hand-holding-usd"></i>
+                                    <span>Loans & Credit</span>
+                                </a>
+                                <a href="Services/LoanCalculator/LoanCalc.html" class="dropdown-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Notice</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <a href="/Gallery/gallery.html" class="nav-link">
+                            <i class="fas fa-images"></i>
+                            <span>Gallery</span>
+                        </a> -->
+                        <a href="#reports" class="nav-link">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Reports</span>
+                        </a>
+                        <a href="Notice/Notice.html" class="nav-link">
+                            <i class="fas fa-bullhorn"></i>
+                            <span>Notices</span>
+                        </a>
+                        <a href="FAQ/FAQ.html" class="nav-link">
+                            <i class="fas fa-question-circle"></i>
+                            <span>FAQ</span>
+                        </a>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="nav-breadcrumb">
+        <a href="index.html" class="breadcrumb-link">Home</a>
+        <span class="breadcrumb-separator">/</span>
+        <span>Loan Calculator</span>
+    </div>
+
+    <section class="notice-section">
+        <div class="container">
+            <div class="section-header">
+                <h2><i class="fas fa-bullhorn"></i> Important Notices</h2>
+                <p class="section-subtitle">Stay updated with the latest announcements and important information from
+                    Aarthik Bachat Cooperative Bank.</p>
+            </div>
+
+            <div class="notice-container">
+                <!-- Recent Notice -->
+                <div class="recent-notice">
+                    <div class="recent-badge">
+                        <i class="fas fa-star"></i> Latest Notice
+                    </div>
+                    <div class="recent-content">
+                        <div class="notice-meta">
+                            <span class="notice-date">March 15, 2024</span>
+                            <span class="notice-category important">Important</span>
+                        </div>
+                        <h3 class="notice-title">Holiday Notice: Makar Sankranti</h3>
+                        <p class="notice-excerpt">Please be informed that our bank will remain closed on Tuesday, March
+                            26, 2024 on account of Ram Navami. Banking services will resume on Wednesday, March 27, 2024
+                            as per regular schedule.</p>
+                        <div class="notice-details">
+                            <p><strong>Holiday:</strong> Makar Sankranti</p>
+                            <p><strong>Date:</strong> Tuesday, March 26, 2024</p>
+                            <p><strong>Services Affected:</strong> All banking services</p>
+                            <p><strong>Normal Operations Resume:</strong> Wednesday, March 27, 2024</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Notice Categories -->
+                <div class="notice-categories">
+                    <h3>Browse by Category</h3>
+                    <div class="category-buttons">
+                        <button class="category-btn active" data-category="all">All Notices</button>
+                        <button class="category-btn" data-category="holiday">Holiday</button>
+                        <button class="category-btn" data-category="important">Important</button>
+                        <button class="category-btn" data-category="general">General</button>
+                        <button class="category-btn" data-category="meeting">Meeting</button>
+                    </div>
+                </div>
+
+                <!-- Notices List -->
+                <div class="notices-list">
+                    <div class="notice-card" data-category="holiday">
+                        <div class="notice-card-header">
+                            <span class="card-date">March 10, 2024</span>
+                            <span class="card-category holiday">Holiday</span>
+                        </div>
+                        <h4>Holiday Notice: Fagu Purnima</h4>
+                        <p>Bank will remain closed on March 25, 2024 for Fagu Purnima (Holi).</p>
+                        <a href="#" class="read-more">Read Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="notice-card" data-category="important">
+                        <div class="notice-card-header">
+                            <span class="card-date">March 5, 2024</span>
+                            <span class="card-category important">Important</span>
+                        </div>
+                        <h4>Interest Rate Revision</h4>
+                        <p>New interest rates effective from April 1, 2024. Visit branch for details.</p>
+                        <a href="#" class="read-more">Read Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="notice-card" data-category="general">
+                        <div class="notice-card-header">
+                            <span class="card-date">February 28, 2024</span>
+                            <span class="card-category general">General</span>
+                        </div>
+                        <h4>New ATM Installation</h4>
+                        <p>New ATM machine installed at Thulo Pipra branch. Now 24/7 cash available.</p>
+                        <a href="#" class="read-more">Read Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="notice-card" data-category="meeting">
+                        <div class="notice-card-header">
+                            <span class="card-date">February 20, 2024</span>
+                            <span class="card-category meeting">Meeting</span>
+                        </div>
+                        <h4>Annual General Meeting</h4>
+                        <p>15th Annual General Meeting scheduled for March 30, 2024 at 10 AM.</p>
+                        <a href="#" class="read-more">Read Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="notice-card" data-category="important">
+                        <div class="notice-card-header">
+                            <span class="card-date">February 15, 2024</span>
+                            <span class="card-category important">Important</span>
+                        </div>
+                        <h4>Loan Scheme Launch</h4>
+                        <p>New agricultural loan scheme for local farmers. Special interest rates.</p>
+                        <a href="#" class="read-more">Read Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="notice-card" data-category="holiday">
+                        <div class="notice-card-header">
+                            <span class="card-date">February 10, 2024</span>
+                            <span class="card-category holiday">Holiday</span>
+                        </div>
+                        <h4>Holiday: Democracy Day</h4>
+                        <p>Bank closed on February 19, 2024 for National Democracy Day.</p>
+                        <a href="#" class="read-more">Read Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Archive Section -->
+                <div class="notice-archive">
+                    <h3><i class="fas fa-archive"></i> Notice Archive</h3>
+                    <div class="archive-years">
+                        <a href="#" class="year-link">2024</a>
+                        <a href="#" class="year-link">2023</a>
+                        <a href="#" class="year-link">2022</a>
+                        <a href="#" class="year-link">2021</a>
+                        <a href="#" class="year-link">2020</a>
+                    </div>
+                    <p class="archive-note">Looking for older notices? Browse our archive by year.</p>
+                </div>
+
+                <!-- Subscribe Section -->
+                <div class="notice-subscribe">
+                    <div class="subscribe-content">
+                        <h3><i class="fas fa-bell"></i> Get Notifications</h3>
+                        <p>Stay updated with important notices via SMS. Provide your mobile number to receive alerts.
+                        </p>
+                        <form class="subscribe-form">
+                            <div class="form-group">
+                                <input type="tel" placeholder="Enter your mobile number" required>
+                                <button type="submit" class="subscribe-btn">Subscribe</button>
+                            </div>
+                            <p class="form-note">*Service charges may apply. Standard SMS rates applicable.</p>
+                        </form>
+                    </div>
+                    <div class="subscribe-info">
+                        <h4>Other Ways to Stay Updated</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Visit our notice board at branch</li>
+                            <li><i class="fas fa-check-circle"></i> Check website regularly</li>
+                            <li><i class="fas fa-check-circle"></i> Contact branch directly</li>
+                            <li><i class="fas fa-check-circle"></i> Ask during your branch visit</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <img src="Images/Logo.png" alt="Aarthik Logo" width="50" height="50">
+                        <div class="footer-logo-text">
+                            <h3>आर्थिक बचत तथा ऋण सहकारी संस्था लि.</h3>
+                            <p>Aarthik Saving & Credit Co-operative Ltd.</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        A trusted financial partner for over 25 years, serving the banking needs
+                        of communities across Nepal with integrity and innovation.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="About/Our_Team/Team.html"><i class="fas fa-chevron-right"></i>Our
+                                History</a></li>
+                        <li><a href="Services/Services.html"><i class="fas fa-chevron-right"></i>
+                                Services</a>
+                        </li>
+                        <li><a href="Contact/Contact.html"><i class="fas fa-chevron-right"></i> Contact
+                                Us</a>
+                        </li>
+                        <li><a href="Reports/Financial_Reports.html"><i class="fas fa-chevron-right"></i>
+                                Financial
+                                Reports</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="Services/Savings/Savings.html"><i class="fas fa-chevron-right"></i> Accounts</a>
+                        </li>
+                        <li><a href="Services/Loans&Credit/L&C.html"><i class="fas fa-chevron-right"></i> Loan Services</a></li>
+                        <li><a href="Services/LoanCalculator/LoanCalc.html"><i class="fas fa-chevron-right"></i> Loans Calculator</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Thulo-Pipra, Birgunj-14, Parsa, Nepal</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+977 9845524394</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Sun-Fri: 10:00 AM - 5:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2082 AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD. All Rights Reserved.</p>
+                    <div class="footer-legal">
+                        <a href="Privacy_policy/Privacy.html">Privacy Policy</a>
+                        <a href="Terms_of_Service/Serviceterms.html">Terms of Service</a>
+                        <a href="#sitemap">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+
+
+    <script src="Notice.js"></script>
+</body>
+
+</html>

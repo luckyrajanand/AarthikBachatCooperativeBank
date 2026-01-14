@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</title>
+    <meta name="description" content="A trusted financial partner for over 7 years in Nepal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Floating animated shapes -->
+    <div class="bg-animation">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <div class="logo-circle">
+                    <img src="Images/Logo.png" alt="Loading-logo">
+                </div>
+            </div>
+            <div class="loader-progress">
+                <div class="progress-bar"></div>
+            </div>
+            <p class="loader-text">AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD.</p>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-grid">
+                    <div class="top-bar-info">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span data-en="Sun-Fri 10:00 AM - 5:00 PM"
+                                data-np="आइत–शुक्र १०:०० बिहान – ५:०० साँझ">Sun-Fri 10:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-en="Thulo Pipra, Birgunj-14, Nepal" data-np="ठूलो पिपरा, वीरगंज–१४, नेपाल">Thulo
+                                Pipra,Birgunj-14, Nepal</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="top-bar-actions">
+                        <div class="lang-toggle">
+                            <div class="lang-btn active" data-lang="en">EN</div>
+                            <div class="lang-btn" data-lang="np">ने</div>
+                        </div>
+                        <div class="dark-mode-toggle">
+                            <i class="fas fa-moon"></i>
+                        </div>
+                        <div class="clock">
+                            <span id="updateTime">Today, 3:45 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-container">
+                    <!-- Logo -->
+                    <a href="index.html" class="logo">
+                        <div class="logo-img">
+                            <img src="Images/Logo.png" alt="Logo" width="90px" height="90px">
+                        </div>
+                        <div class="logo-text">
+                            <h1>आर्थिक बचत<br> तथा ऋण सहकारी संस्था लि.</h1>
+                            <p>ठूलो पिपरा, वीरगञ्ज-१४, नेपाल</p>
+                        </div>
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <div class="nav-links" id="navLinks">
+                        <a href="index.html" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            <span data-np="गृहपृष्ठ" data-en="Home">Home</span>
+                        </a>
+
+                        <div class=" dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-info-circle"></i>
+                                <span data-np="हाम्रो बारेमा" data-en="About Us">About Us</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="About/Our_History/Our_History.html" class="dropdown-item">
+                                    <i class="fas fa-history"></i>
+                                    <span data-en="Our History" data-np="हाम्रो इतिहास">Our History</span>
+                                </a>
+                                <a href="About/Mission_Vision/Mission_Vision.html" class="dropdown-item">
+                                    <i class="fas fa-bullseye"></i>
+                                    <span data-en="Mission & Vision" data-np="लक्ष्य तथा दृष्टिकोण">Mission &
+                                        Vision</span>
+                                </a>
+                                <a href="About/BOD/BOD.html" class="dropdown-item">
+                                    <i class="fas fa-users"></i>
+                                    <span data-en="Board of Directors" data-np="सञ्चालक समिति">Board of Directors</span>
+                                </a>
+                                <a href="About/Our_Team/Team.html" class="dropdown-item">
+                                    <i class="fas fa-user-tie"></i>
+                                    <span data-en="Our Team" data-np="हाम्रो टिम">Our Team</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" aria-expanded="false">
+                                <i class="fas fa-concierge-bell"></i>
+                                <span data-np="सेवाहरू" data-en="Services">Services</span>
+                                <i class="fas fa-chevron-down dropdown-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="Services/Savings/Savings.html" class="dropdown-item">
+                                    <i class="fas fa-piggy-bank"></i>
+                                    <span data-en="Accounts" data-np="खाता प्रकारहरू">Accounts</span>
+                                </a>
+                                <a href="Services/Loans&Credit/L&C.html" class="dropdown-item">
+                                    <i class="fas fa-hand-holding-usd"></i>
+                                    <span data-en="Loans & Credit" data-np="ऋण तथा सापटी">Loans & Credit</span>
+                                </a>
+                                <!-- <a href="#investment" class="dropdown-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Investment Plans</span> -->
+                                </a>
+                                <a href="Services/LoanCalculator/LoanCalc.html" class="dropdown-item">
+                                    <i class="ri-calculator-fill"></i>
+                                    <span>Loan Calculator</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <a href="/Gallery/gallery.html" class="nav-link">
+                            <i class="fas fa-images"></i>
+                            <span>Gallery</span>
+                        </a> -->
+                        <a href="#reports" class="nav-link">
+                            <i class="fas fa-file-alt"></i>
+                            <span data-en="Reports" data-np="प्रतिवेदनहरू">Reports</span>
+                        </a>
+                        <a href="Notice/Notice.html" class="nav-link">
+                            <i class="fas fa-bullhorn"></i>
+                            <span data-np="सूचना" data-en="Notices">Notices</span>
+                        </a>
+                        <a href="FAQ/FAQ.html" class="nav-link">
+                            <i class="fas fa-question-circle"></i>
+                            <span data-en="FAQ" data-np="प्रश्नोत्तर">FAQ</span>
+                        </a>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Notice Marquee -->
+    <div class="notice-bar">
+        <div class="container">
+            <div class="notice-container">
+                <div class="notice-label" aria-label="Notice">
+                    <i class="fas fa-bullhorn"></i>
+                    <span data-np=":" data-en="NOTICES:">NOTICES:</span>
+                </div>
+                <div class="marquee-container">
+                    <div class="marquee-content">
+                        <div class="marquee-item">
+                            <i class="fas fa-bell"></i>
+                            <span>सूचना: सहकारी कार्यालय समय बिहान १०:०० देखि दिउँसो ५:०० बजेसम्म रहनेछ</span>
+                        </div>
+                        <div class="marquee-item">
+                            <i class="fas fa-users"></i>
+                            <span>सूचना: वार्षिक साधारण सभामा सबै सदस्यज्यूहरूलाई उपस्थित हुन अनुरोध</span>
+                        </div>
+                        <div class="marquee-item">
+                            <i class="fas fa-rupee-sign"></i>
+                            <span>सूचना: व्यक्तिगत, व्यवसायिक तथा कृषि कर्जा सुविधा उपलब्ध</span>
+                        </div>
+                        <div class="marquee-item">
+                            <i class="fas fa-id-card"></i>
+                            <span>सूचना: केवाईसी विवरण अद्यावधिक गर्न अनुरोध गरिन्छ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Carousel -->
+    <section class="hero">
+        <div class="carousel">
+            <!-- Slide 1 -->
+            <div class="slide active">
+                <div class="slider-img">
+                    <img src="Images/Image1.png">
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slider-img">
+                    <img src="Images/Image2.png">
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slider-img">
+                    <img src="Images/Image3.jpg">
+                </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-control prev" aria-label="Previous slide">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-control next" aria-label="Next slide">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button class="indicator active" aria-label="Go to slide 1"></button>
+                <button class="indicator" aria-label="Go to slide 2"></button>
+                <button class="indicator" aria-label="Go to slide 3"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Services Section -->
+        <section class="section services-section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="Our Services" data-np="हाम्रा सेवाहरू">Our Services</h2>
+                    <p class="section-subtitle" data-en="Comprehensive financial solutions for all your needs"
+                        data-np="तपाईंको सबै वित्तीय आवश्यकता पूरा गर्न व्यापक समाधानहरू">
+                        Comprehensive financial solutions for all your needs
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Accounts -->
+                    <div class="service-card" data-aos="fade-up">
+                        <div class="service-icon">
+                            <i class="fas fa-piggy-bank"></i>
+                        </div>
+                        <h3 class="service-title" data-en="Accounts" data-np="खाता">Accounts</h3>
+                        <p class="service-description"
+                            data-en="Secure savings options with attractive interest rates for your future planning."
+                            data-np="तपाईंको भविष्य योजना गर्न आकर्षक ब्याज दरसहित सुरक्षित बचत विकल्पहरू।">
+                            Secure savings options with attractive interest rates for your future planning.
+                        </p>
+                        <a href="Services/Savings/Savings.html" class="service-link">
+                            <span data-en="Explore" data-np="अन्वेषण गर्नुहोस्">Explore</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Loans & Credit -->
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <h3 class="service-title" data-en="Loans & Credit" data-np="ऋण र क्रेडिट">Loans & Credit</h3>
+                        <p class="service-description"
+                            data-en="Flexible loan solutions for home, education, business, and agriculture."
+                            data-np="घर, शिक्षा, व्यवसाय र कृषि लागि लचिलो ऋण समाधान।">
+                            Flexible loan solutions for home, education, business, and agriculture.
+                        </p>
+                        <a href="Services/Loans&Credit/L&C.html" class="service-link">
+                            <span data-en="Explore" data-np="अन्वेषण गर्नुहोस्">Explore</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Loan Calculator -->
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon">
+                            <i class="ri-calculator-fill"></i>
+                        </div>
+                        <h3 class="service-title" data-en="Loan Calculator" data-np="ऋण गणक">Loan Calculator</h3>
+                        <p class="service-description" data-en="Calculate Your EMI with Loan Calculator portfolios."
+                            data-np="ऋण गणक मार्फत आफ्नो EMI सजिलै हिसाब गर्नुहोस्।">
+                            Calculate Your EMI with Loan Calculator portfolios.
+                        </p>
+                        <a href="Services/LoanCalculator/LoanCalc.html" class="service-link">
+                            <span data-en="Explore" data-np="अन्वेषण गर्नुहोस्">Explore</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section class="section about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content" data-aos="fade-right">
+                        <h2 class="about-title" data-en="About AARTHIK Saving & Credit Co-operative ltd."
+                            data-np="आर्थिक बचत तथा ऋण सहकारी संस्था लि. को बारेमा">
+                            About AARTHIK Saving & Credit Co-operative ltd.
+                        </h2>
+                        <p class="about-description"
+                            data-en="Established with a vision to empower communities through financial inclusion, AARTHIK Saving & Credit Co-operative has been a trusted financial partner for over 7 years in Nepal."
+                            data-np="वित्तीय समावेशीकरण मार्फत समुदायलाई सशक्त बनाउने दृष्टिकोणका साथ स्थापित, आर्थिक बचत तथा ऋण सहकारी संस्था लि. नेपालमा ७ वर्ष भन्दा बढी समयदेखि विश्वसनीय वित्तीय साझेदार रहिआएको छ।">
+                            Established with a vision to empower communities through financial inclusion, AARTHIK Saving
+                            & Credit Co-operative has been a trusted financial partner for over 7 years in Nepal.
+                        </p>
+                        <p class="about-description"
+                            data-en="We are committed to providing secure, accessible, and innovative financial solutions that help our members achieve their dreams and build a prosperous future."
+                            data-np="हामी सुरक्षित, पहुँचयोग्य, र नवीन वित्तीय समाधान प्रदान गर्न प्रतिबद्ध छौं जसले हाम्रा सदस्यहरूलाई आफ्नो सपनाहरू पूरा गर्न र समृद्ध भविष्य निर्माण गर्न मद्दत गर्दछ।">
+                            We are committed to providing secure, accessible, and innovative financial solutions that
+                            help our members achieve their dreams and build a prosperous future.
+                        </p>
+                        <div class="about-features">
+                            <div class="feature">
+                                <i class="fas fa-shield-alt"></i>
+                                <span data-en="Secure & Reliable" data-np="सुरक्षित र भरपर्दो">Secure & Reliable</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-handshake"></i>
+                                <span data-en="Member Focused" data-np="सदस्य केन्द्रित">Member Focused</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-users"></i>
+                                <span data-en="Community Focused" data-np="समुदाय केन्द्रित">Community Focused</span>
+                            </div>
+                        </div>
+                        <a href="About/Our_History/Our_History.html" class="btn btn-primary">
+                            <span data-en="Read More About Us" data-np="हाम्रो बारेमा थप पढ्नुहोस्">Read More About
+                                Us</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="about-image" data-aos="fade-left">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <img src="/Images/Aarthik Bank Building2.jpg" alt="About AARTHIK Co-operative"
+                                    onerror="this.style.display='none'">
+
+                                <!-- Fullscreen icon -->
+                                <a href="Images/Aarthik Bank Building.jpeg" class="fullscreen-btn"
+                                    title="View Full Screen">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Statistics Counter -->
+        <section class="section stats-counter">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card" data-aos="zoom-in">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="counter" data-target="7">0</div>
+                        <p class="stat-text">Years of Service</p>
+                    </div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="counter" data-target="50000">0</div>
+                        <p class="stat-text">Happy Customers</p>
+                    </div>
+                    <!-- <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="stat-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                    </div> -->
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="stat-icon">
+                            <i class="fas fa-rupee-sign"></i>
+                        </div>
+                        <div class="counter" data-target="85">0</div>
+                        <p class="stat-text">Lakh NPR Assets</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-choose-us">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="Why Choose Aarthik Bachat Bank?"
+                        data-np="किन आर्थिक बचत बैंक रोज्ने?">
+                        Why Choose Aarthik Bachat Bank?
+                    </h2>
+                    <p class="section-subtitle"
+                        data-en="We are your trusted local cooperative bank, committed to serving our community with honesty and reliability."
+                        data-np="हामी तपाईंको भरपर्दो स्थानीय सहकारी बैंक हौं, इमानदारी र विश्वसनीयताका साथ समुदायको सेवा गर्न प्रतिबद्ध छौं।">
+                        We are your trusted local cooperative bank, committed to serving our community with honesty and
+                        reliability.
+                    </p>
+                </div>
+
+                <div class="benefits-grid">
+                    <!-- Benefit 1 -->
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><i class="fas fa-handshake"></i></div>
+                        <div class="benefit-content">
+                            <h3 data-en="Local & Trusted" data-np="स्थानीय र भरोसायोग्य">Local & Trusted</h3>
+                            <p data-en="We understand our community's needs because we are part of it. Banking with neighbors, for neighbors."
+                                data-np="हामी हाम्रो समुदायको आवश्यकता बुझ्छौं किनभने हामी त्यसको हिस्सा हौं। छिमेकवालासँग, छिमेकवालाको लागि बैंकिङ।">
+                                We understand our community's needs because we are part of it. Banking with neighbors,
+                                for neighbors.
+                            </p>
+                            <div class="benefit-features">
+                                <span class="feature-tag" data-en="15+ Years Experience" data-np="१५+ वर्ष अनुभव">15+
+                                    Years Experience</span>
+                                <span class="feature-tag" data-en="Local Ownership" data-np="स्थानीय स्वामित्व">Local
+                                    Ownership</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Benefit 2 -->
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><i class="fas fa-percentage"></i></div>
+                        <div class="benefit-content">
+                            <h3 data-en="Better Interest Rates" data-np="उत्कृष्ट ब्याज दर">Better Interest Rates</h3>
+                            <p data-en="We offer competitive interest rates on savings and reasonable rates on loans to support our members."
+                                data-np="हामी बचतमा प्रतिस्पर्धात्मक ब्याज दर र ऋणमा उचित दरहरू प्रस्ताव गर्छौं।">
+                                We offer competitive interest rates on savings and reasonable rates on loans to support
+                                our members.
+                            </p>
+                            <div class="benefit-features">
+                                <span class="feature-tag" data-en="Savings: 9% - 10%" data-np="बचत: ९% - १०%">Savings:
+                                    9% - 10%</span>
+                                <span class="feature-tag" data-en="Fair Loan Rates" data-np="उचित ऋण दर">Fair Loan
+                                    Rates</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Benefit 3 -->
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><i class="fas fa-users"></i></div>
+                        <div class="benefit-content">
+                            <h3 data-en="Member-Focused" data-np="सदस्य केन्द्रित">Member-Focused</h3>
+                            <p data-en="As a cooperative, our members are our priority. We work for your benefit, not for shareholders."
+                                data-np="एक सहकारीको रूपमा, हाम्रा सदस्यहरू हाम्रो प्राथमिकता हुन्। हामी तपाईंको फाइदाका लागि काम गर्छौं, शेयरहोल्डरहरूको लागि होइन।">
+                                As a cooperative, our members are our priority. We work for your benefit, not for
+                                shareholders.
+                            </p>
+                            <div class="benefit-features">
+                                <span class="feature-tag" data-en="Member Ownership" data-np="सदस्य स्वामित्व">Member
+                                    Ownership</span>
+                                <span class="feature-tag" data-en="Community First" data-np="समुदाय पहिलो">Community
+                                    First</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Benefit 4 -->
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                        <div class="benefit-content">
+                            <h3 data-en="Simple & Transparent" data-np="सरल र पारदर्शी">Simple & Transparent</h3>
+                            <p data-en="No hidden charges, minimal paperwork, and clear communication. Banking made simple."
+                                data-np="लुकेको शुल्क छैन, न्यूनतम कागजी प्रक्रिया, स्पष्ट सञ्चार। बैंकिङ सरल बनाइएको।">
+                                No hidden charges, minimal paperwork, and clear communication. Banking made simple.
+                            </p>
+                            <div class="benefit-features">
+                                <span class="feature-tag" data-en="Low Fees" data-np="कम शुल्क">Low Fees</span>
+                                <span class="feature-tag" data-en="Easy Process" data-np="सजिलो प्रक्रिया">Easy
+                                    Process</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Stats Banner -->
+            <div class="stats-banner">
+                <div class="stat-box">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Members</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">7+</div>
+                    <div class="stat-label">Years Service</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Satisfaction</div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="why-choose-cta">
+                <p>Join our community of satisfied members. Visit our Office to learn more.</p>
+            </div>
+            </div>
+        </section>
+        <!-- Mini Map Section -->
+        <section class="mini-map-section">
+            <div class="container">
+                <div class="map-header">
+                    <h2><i class="fas fa-map-marker-alt"></i> Visit Our Office</h2>
+                    <p class="map-subtitle">Find us easily in Thulo Pipra, Birgunj-14</p>
+                </div>
+
+                <div class="map-container">
+                    <!-- Google Maps Embed -->
+                    <div class="map-embed">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3553.9471229196374!2d84.89516177431295!3d27.03183675496321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39935541d1d70de3%3A0x98601ef7a22d0b83!2sBaje%20Hotel!5e0!3m2!1sen!2snp!4v1768168767797!5m2!1sen!2snp"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" title="Aarthik Bachat Bank Location"></iframe>
+                    </div>
+
+                    <!-- Location Details -->
+                    <div class="location-details">
+                        <div class="location-info">
+                            <div class="map-info-item">
+                                <div class="map-info-icon">
+                                    <i class="fas fa-map-pin"></i>
+                                </div>
+                                <div class="map-info-content">
+                                    <h4>Our Address</h4>
+                                    <p>Thulo Pipra, Birgunj-14, Parsa, Nepal</p>
+                                    <p class="address-note">(On First floor of Baje Hotel)</p>
+                                </div>
+                            </div>
+
+                            <div class="map-info-item">
+                                <div class="map-info-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="map-info-content">
+                                    <h4>Opening Hours</h4>
+                                    <div class="timings">
+                                        <div class="timing-row">
+                                            <span class="day">Sun - Fri:</span>
+                                            <span class="time">10:00 AM - 5:00 PM</span>
+                                        </div>
+                                        <div class="timing-row">
+                                            <span class="day">Saturday & Public Holidays:</span>
+                                            <span class="time">Closed</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="map-info-item">
+                                <div class="map-info-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="map-info-content">
+                                    <h4>Contact Info</h4>
+                                    <p class="contact-number">
+                                        <a href="tel:+9779845524394">
+                                            <i class="fas fa-phone"></i> +977 9845524394
+                                        </a>
+                                    </p>
+                                    <p class="contact-email">
+                                        <a href="mailto:aarthiksaving@gmail.com">
+                                            <i class="fas fa-envelope"></i> aarthiksaving@gmail.com
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="map-actions">
+                            <a href="https://maps.google.com/?q=Thulo+Pipra+Birgunj+Nepal" target="_blank"
+                                class="btn-map-action">
+                                <i class="fas fa-directions"></i> Get Directions
+                            </a>
+                            <a href="#contactus" class="btn-map-action secondary">
+                                <i class="fas fa-info-circle"></i> More Contact Info
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nearby Landmarks -->
+                <div class="landmarks">
+                    <h4><i class="fas fa-landmark"></i> Nearby Landmarks</h4>
+                    <div class="landmark-list">
+                        <div class="landmark-item">
+                            <i class="fas fa-utensils"></i>
+                            <span>Baje Hotel</span>
+                        </div>
+                        <div class="landmark-item">
+                            <i class="fas fa-school"></i>
+                            <span>Local Schools</span>
+                        </div>
+                        <div class="landmark-item">
+                            <i class="fas fa-store"></i>
+                            <span>Market Area</span>
+                        </div>
+                        <div class="landmark-item">
+                            <i class="fas fa-bus"></i>
+                            <span>Bus Stop Nearby</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Currency table -->
+        <!-- Exchange Rate Section -->
+        <section class="exchange-section">
+            <div class="container">
+                <div class="exchange-header">
+                    <h2 class="exchange-title"> Today's Exchange Rates</h2>
+                    <p class="exchange-subtitle">Live foreign exchange rates against Nepali Rupee (NPR)</p>
+                    <div class="exchange-update">
+                        <i class="fas fa-sync-alt"></i>
+                        <span>Updated: <span id="updateTime">Today, 3:45 PM</span></span>
+                        <span class="source">Source: Nepal Rastra Bank</span>
+                    </div>
+                </div>
+                <table class="currency-table">
+                    <thead>
+                        <tr>
+                            <th>Currency</th>
+                            <th>Code</th>
+                            <th>Buying (NPR)</th>
+                            <th>Selling (NPR)</th>
+                            <th>NRB Rate</th>
+                            <th>Change</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fas fa-flag-usa"></i> US Dollar</td>
+                            <td>USD</td>
+                            <td>133.25</td>
+                            <td>133.85</td>
+                            <td>133.55</td>
+                            <td class="change-up"><i class="fas fa-arrow-up"></i> +0.15%</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-flag-eu"></i> Euro</td>
+                            <td>EUR</td>
+                            <td>144.35</td>
+                            <td>145.10</td>
+                            <td>144.72</td>
+                            <td class="change-down"><i class="fas fa-arrow-down"></i> -0.08%</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-flag-uk"></i> British Pound</td>
+                            <td>GBP</td>
+                            <td>169.40</td>
+                            <td>170.15</td>
+                            <td>169.78</td>
+                            <td class="change-up"><i class="fas fa-arrow-up"></i> +0.22%</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-flag-in"></i> Indian Rupee</td>
+                            <td>INR</td>
+                            <td>1.60</td>
+                            <td>1.61</td>
+                            <td>1.605</td>
+                            <td class="change-stable"><i class="fas fa-minus"></i> 0.00%</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-flag-au"></i> Australian Dollar</td>
+                            <td>AUD</td>
+                            <td>87.45</td>
+                            <td>88.10</td>
+                            <td>87.78</td>
+                            <td class="change-up"><i class="fas fa-arrow-up"></i> +0.12%</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-flag-ca"></i> Canadian Dollar</td>
+                            <td>CAD</td>
+                            <td>98.30</td>
+                            <td>98.95</td>
+                            <td>98.62</td>
+                            <td class="change-down"><i class="fas fa-arrow-down"></i> -0.05%</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-flag-jp"></i> Japanese Yen</td>
+                            <td>JPY</td>
+                            <td>0.895</td>
+                            <td>0.905</td>
+                            <td>0.900</td>
+                            <td class="change-up"><i class="fas fa-arrow-up"></i> +0.18%</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-flag-cn"></i> Chinese Yuan</td>
+                            <td>CNY</td>
+                            <td>18.65</td>
+                            <td>18.85</td>
+                            <td>18.75</td>
+                            <td class="change-stable"><i class="fas fa-minus"></i> 0.00%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="disclaimer">
+                <p><i class="fas fa-info-circle"></i> <strong>Note:</strong> Rates are indicative and may vary. Actual
+                    rates
+                    will be applicable at the time of transaction. For exact rates, please visit your nearest branch or
+                    contact our forex desk.</p>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="section-subtitle">Get in touch with our team for any queries or assistance</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Our Location</h3>
+                                <p>Thulo Pipra,Birgunj-14, Parsa, Nepal</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3 data-en="Phone Number" data-np="फोन नम्बर">Phone Number</h3>
+                                <p data-en="+977 9845524394" data-np="+977 9845524394">+977 9845524394</p>
+                                <p data-en="051-419294" data-np="051-419294">051-419294</p>
+                            </div>
+
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email Address</h3>
+                                <p>aarthiksaving@gmail.com</p>
+
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3 data-en="Opening Hours" data-np="खुल्ने समय">Opening Hours</h3>
+                                <p data-en="Sunday - Friday: 10:00 AM - 5:00 PM"
+                                    data-np="आइतबार - शुक्रबार: बिहान १०:०० - साँझ ५:००">Sunday - Friday: 10:00 AM -
+                                    5:00 PM</p>
+                                <p data-en="Saturday: Closed" data-np="शनिबार: बन्द">Saturday: Closed</p>
+                            </div>
+                        </div>
+
+
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form" data-aos="fade-left">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                                <div class="form-icon">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Your Email" required>
+                                <div class="form-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" id="whatsapp" placeholder="Your Whatsapp Number" required>
+                                <div class="form-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                                <div class="form-icon">
+                                    <i class="fas fa-comment"></i>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fas fa-paper-plane" data-np="व्हाट्सएपमार्फत पठाउनुहोस्"
+                                    data-en="Send via WhatsApp"></i> Send via WhatsApp
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <img src="Images/Logo.png" alt="Aarthik Logo" width="70px" height="70px">
+                        <div class="footer-logo-text">
+                            <h3>आर्थिक बचत तथा ऋण सहकारी संस्था लि.</h3>
+                            <p>Aarthik Saving & Credit Co-operative Ltd.</p>
+                        </div>
+                    </div>
+                    <p class="footer-description"
+                        data-np="२५ वर्षभन्दा बढी समयदेखि भरपर्दो वित्तीय साझेदार, इमान्दारी र नवप्रवर्तनसहित नेपालभरका समुदायहरूको बैंकिङ आवश्यकताहरू सेवा गर्दै।"
+                        data-en=" A trusted financial partner for over 25 years, serving the banking needs
+                        of communities across Nepal with integrity and innovation.">
+                        A trusted financial partner for over 25 years, serving the banking needs
+                        of communities across Nepal with integrity and innovation.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title" data-np="छिटो लिंक" data-en="Quick Link">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i>
+                                <span data-np="गृहपृष्ठ" data-en="Home">Home</span></a></li>
+                        <li><a href="About/Our_History/Our_History.html"><i class="fas fa-chevron-right"></i> <span
+                                    data-np="हाम्रोबारे" data-en="About us">About
+                                    Us</span></a></li>
+                        <li><a href="Services/Savings/Savings.html"><i class="fas fa-chevron-right"></i> <span data-np="सेवाहरू"
+                                    data-en="Services">Services</span></a></li>
+                        <li><a href="#contact us"><i class="fas fa-chevron-right"></i> <span data-np="हाम्रो सम्पर्क"
+                                    data-en="Contact Us">Contact Us</span></a></li>
+                        <li><a href="Reports/Reports.html"><i class="fas fa-chevron-right"></i><span data-np=" रिपोर्टहरू"
+                                    data-en=" Reports">Reports</span> </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title"> <span data-np="हाम्रो सेवाहरू" data-en="Our Services">Our Services</span>
+                    </h4>
+                    <ul class="footer-links">
+                        <li><a href="Services/Savings/Savings.html"><i class="fas fa-chevron-right"></i> <span
+                                    data-np="खाता" data-en="Accounts">Accounts
+                                    Services</span></a></li>
+                        <li><a href="Services/Loans&Credit/L&C.html"><i class="fas fa-chevron-right"></i> <span
+                                    data-np="ऋण सेवाहरू" data-en="Loan Services">Loan
+                                    Services</span></a></li>
+                        <li><a href="Services/LoanCalculator/LoanCalc.html"><i class="fas fa-chevron-right"></i><span
+                                    data-np="ब्याज गणक" data-en="Interest Calculator">Interest
+                                    Calculator</span>
+                            </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title" data-np="सम्पर्क विवरण" data-en="Contact Info">Contact Info</h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-np="ठूलो पिपरा, वीरगञ्ज–१४, पर्सा, नेपाल"
+                                data-en="Thulo-Pipra, Birgunj-14, Parsa, Nepal">Thulo-Pipra, Birgunj-14, Parsa,
+                                Nepal</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span data-np="+९७७ ९८४५५२४३९४" data-en="+977 9845524394">+977 9845524394</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aarthiksaving@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span data-np="आइतबार-शुक्रबार: १०ः०० AM - ५ः०० PM:"
+                                data-en="Sun-Fri: 10:00 AM - 5:00 PM:">Sun-Fri: 10:00 AM - 5:00 PM:</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 AARTHIK SAVING AND CREDIT CO-OPERATIVE LTD. <br> All Rights Reserved.</p>
+                    <div class="footer-legal">
+                        <a href="Privacy_policy/Privacy.html">Privacy Policy</a>
+                        <a href="Terms_of_Service/Serviceterms.html">Terms of Service</a>
+                        <a href="#sitemap">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
